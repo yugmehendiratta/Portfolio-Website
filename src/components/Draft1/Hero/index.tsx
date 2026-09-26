@@ -95,17 +95,17 @@ export default function Hero({ className = "" }: HeroProps) {
                   </h1>
                 </div>
                 {/* Floating Role Tags */}
-                <div className="framer-3uhcie hidden-7h10me" data-framer-name="Tag" style={{ transform: "rotate(14deg)" }}>
+                <div className="framer-3uhcie" data-framer-name="Tag" style={{ transform: "rotate(14deg)" }}>
                   <div className="framer-1j2twoc" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                     <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                      {"UI/UX Designer"}
+                      {"Still curious, still leveling up"}
                     </p>
                   </div>
                 </div>
-                <div className="framer-l9afbe hidden-7h10me" data-framer-name="Tag" style={{ transform: "rotate(-8deg)" }}>
+                <div className="framer-l9afbe" data-framer-name="Tag" style={{ transform: "rotate(-8deg)" }}>
                   <div className="framer-1hfuatx" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                     <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                      {"Product Designer"}
+                      {"Chasing the next hard problem"}
                     </p>
                   </div>
                 </div>
@@ -132,17 +132,17 @@ export default function Hero({ className = "" }: HeroProps) {
                     </span>
                   </h1>
                 </div>
-                <div className="framer-3uhcie hidden-7h10me" data-framer-name="Tag" style={{ transform: "rotate(14deg)" }}>
+                <div className="framer-3uhcie" data-framer-name="Tag" style={{ transform: "rotate(14deg)" }}>
                   <div className="framer-1j2twoc" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                     <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                      {"UI/UX Designer"}
+                      {"Still curious, still leveling up"}
                     </p>
                   </div>
                 </div>
-                <div className="framer-l9afbe hidden-7h10me" data-framer-name="Tag" style={{ transform: "rotate(-8deg)" }}>
+                <div className="framer-l9afbe" data-framer-name="Tag" style={{ transform: "rotate(-8deg)" }}>
                   <div className="framer-1hfuatx" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                     <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                      {"Product Designer"}
+                      {"Chasing the next hard problem"}
                     </p>
                   </div>
                 </div>
@@ -198,15 +198,7 @@ export default function Hero({ className = "" }: HeroProps) {
                 <div className="ssr-variant hidden-6kqop5 hidden-7h10me">
                   <div style={{ width: "100%", transform: "translateZ(0)" }}>
                     <p style={{ fontFamily: "\"Inter Display\", \"Inter Display Placeholder\", sans-serif", fontWeight: "500", fontSize: "40px", lineHeight: "1.1", letterSpacing: "-0.03em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", textAlign: "center", margin: "0", padding: "0", display: "block", width: "100%", whiteSpace: "pre-wrap" }}>
-                      {"I design "}
-                      <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
-                        <img src="/assets/img/5d8fa1f66a1e6dd3.webp" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
-                      </span>
-                      {" digital products, SaaS experiences "}
-                      <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
-                        <img src="/assets/img/04905598dd8a5130.svg" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
-                      </span>
-                      {", and user-focused interfaces."}
+                      {"Messy problems, clean screens 🎯."}
                     </p>
                   </div>
                 </div>
@@ -215,15 +207,7 @@ export default function Hero({ className = "" }: HeroProps) {
                 <div className="ssr-variant hidden-s8d5gr hidden-7h10me">
                   <div style={{ width: "100%", transform: "translateZ(0)" }}>
                     <p style={{ fontFamily: "\"Inter Display\", \"Inter Display Placeholder\", sans-serif", fontWeight: "500", fontSize: "32px", lineHeight: "1.1", letterSpacing: "-0.03em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", textAlign: "center", margin: "0", padding: "0", display: "block", width: "100%", whiteSpace: "pre-wrap" }}>
-                      {"I design "}
-                      <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
-                        <img src="/assets/img/5d8fa1f66a1e6dd3.webp" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
-                      </span>
-                      {" digital products, SaaS experiences "}
-                      <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
-                        <img src="/assets/img/04905598dd8a5130.svg" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
-                      </span>
-                      {", and user-focused interfaces."}
+                      {"Messy problems, clean screens 🎯."}
                     </p>
                   </div>
                 </div>
@@ -232,15 +216,7 @@ export default function Hero({ className = "" }: HeroProps) {
                 <div className="ssr-variant hidden-s8d5gr hidden-6kqop5">
                   <div style={{ width: "100%", transform: "translateZ(0)" }}>
                     <p style={{ fontFamily: "\"Inter Display\", \"Inter Display Placeholder\", sans-serif", fontWeight: "500", fontSize: "28px", lineHeight: "1.1", letterSpacing: "-0.03em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", textAlign: "center", margin: "0", padding: "0", display: "block", width: "100%", whiteSpace: "pre-wrap" }}>
-                      {"I design "}
-                      <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
-                        <img src="/assets/img/5d8fa1f66a1e6dd3.webp" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
-                      </span>
-                      {" digital products, SaaS experiences "}
-                      <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
-                        <img src="/assets/img/04905598dd8a5130.svg" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
-                      </span>
-                      {", and user-focused interfaces."}
+                      {"Messy problems, clean screens 🎯."}
                     </p>
                   </div>
                 </div>
@@ -312,8 +288,8 @@ export default function Hero({ className = "" }: HeroProps) {
               </div>
             </div>
 
-            {/* Cursor Chip: UI/UX & SaaS */}
-            <div className="framer-1m00fsl hidden-7h10me" data-border="true" data-framer-name="UI/UX & SaaS" style={{ opacity: "1", transform: "translate(-50%, -50%) rotate(-15deg)" }}>
+            {/* Cursor Chip: New Delhi NCR */}
+            <div className="framer-1m00fsl hidden-7h10me" data-border="true" data-framer-name="New Delhi NCR" style={{ opacity: "1", transform: "translate(-50%, -50%) rotate(-15deg)" }}>
               <div data-framer-component-type="SVG" data-framer-name="Cursor" parentsize="0" _constraints="[object Object]" rotation="0" shadows="" className="framer-1u3kovf" aria-hidden="true" style={{ imageRendering: "pixelated", flexShrink: "0" }}>
                 <div className="svgContainer" style={{ width: "100%", height: "100%", aspectRatio: "inherit" }}>
                   <svg style={{ width: "100%", height: "100%", overflow: "visible" }}>
@@ -323,7 +299,7 @@ export default function Hero({ className = "" }: HeroProps) {
               </div>
               <div className="framer-yvptgo" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                 <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))" }}>
-                  {"UI/UX & SaaS"}
+                  {"New Delhi NCR"}
                 </p>
               </div>
               <div className="framer-1oacudz-container">

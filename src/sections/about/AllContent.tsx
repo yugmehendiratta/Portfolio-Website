@@ -137,21 +137,21 @@ export default function AllContent() {
                       <div className="ssr-variant hidden-1hh7fxx hidden-y5t7zo">
                         <div style={{ width: "100%", transform: "translateZ(0)" }}>
                           <p style={{ fontFamily: "\"Inter Display\", \"Inter Display Placeholder\", sans-serif", fontWeight: "500", fontSize: "40px", lineHeight: "1.1", letterSpacing: "-0.03em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", textAlign: "left", margin: "0", padding: "0", display: "block", width: "100%", whiteSpace: "pre-wrap" }}>
-                            {"‎‎I'm Yug 🎧, a UI/UX and product designer who gets excited about turning messy problems into flows that just make sense."}
+                            {"I'm Yug 🧠, a product designer obsessed with the \"why\" before the \"how.\""}
                           </p>
                         </div>
                       </div>
                       <div className="ssr-variant hidden-1fzvxue hidden-y5t7zo">
                         <div style={{ width: "100%", transform: "translateZ(0)" }}>
                           <p style={{ fontFamily: "\"Inter Display\", \"Inter Display Placeholder\", sans-serif", fontWeight: "500", fontSize: "28px", lineHeight: "1.1", letterSpacing: "-0.03em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", textAlign: "left", margin: "0", padding: "0", display: "block", width: "100%", whiteSpace: "pre-wrap" }}>
-                            {"‎‎I'm Yug 🎧, a UI/UX and product designer who gets excited about turning messy problems into flows that just make sense."}
+                            {"I'm Yug 🧠, a product designer obsessed with the \"why\" before the \"how.\""}
                           </p>
                         </div>
                       </div>
                       <div className="ssr-variant hidden-1fzvxue hidden-1hh7fxx">
                         <div style={{ width: "100%", transform: "translateZ(0)" }}>
                           <p style={{ fontFamily: "\"Inter Display\", \"Inter Display Placeholder\", sans-serif", fontWeight: "500", fontSize: "32px", lineHeight: "1.1", letterSpacing: "-0.03em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", textAlign: "left", margin: "0", padding: "0", display: "block", width: "100%", whiteSpace: "pre-wrap" }}>
-                            {"‎‎I'm Yug 🎧, a UI/UX and product designer who gets excited about turning messy problems into flows that just make sense."}
+                            {"I'm Yug 🧠, a product designer obsessed with the \"why\" before the \"how.\""}
                           </p>
                         </div>
                       </div>

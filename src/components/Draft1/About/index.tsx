@@ -15,12 +15,10 @@ export interface AboutProps {
  */
 export default function About({ className = "" }: AboutProps) {
   const focusSkills = [
-    "Product Design",
-    "UI/UX Design",
-    "Interaction Design",
-    "Design Systems",
-    "Prototyping",
-    "SaaS & AI Products",
+    "Research",
+    "Wireframes",
+    "Prototypes",
+    "UI Design",
   ];
 
   return (
@@ -257,24 +255,6 @@ export default function About({ className = "" }: AboutProps) {
               <div className="framer-m8f5ce" />
               <div className="framer-x7ek3a" />
               <div className="framer-sjjzc6" />
-            </div>
-
-            {/* Tag 5: Prototyping */}
-            <div className="framer-54pl82" data-framer-name="Tag" style={{ backgroundColor: "var(--token-1892785e-8581-4826-b411-015017430ad3, rgb(0, 94, 217))" }}>
-              <div className="framer-31wgst" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-                <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-color": "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))" }}>
-                  {focusSkills[4]}
-                </h4>
-              </div>
-            </div>
-
-            {/* Tag 6: SaaS & AI Products */}
-            <div className="framer-1yf7kob" data-framer-name="Tag" style={{ backgroundColor: "var(--token-a40bc7b7-fed8-4930-b9f7-5dc39bc097a2, rgb(164, 229, 248))" }}>
-              <div className="framer-qyyr1q" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-                <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                  {focusSkills[5]}
-                </h4>
-              </div>
             </div>
           </div>
         </div>

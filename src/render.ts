@@ -29,7 +29,10 @@ export const manifest: { pages: Page[] } = JSON.parse(
 );
 
 export function pageFor(file: string): Page {
-  const page = manifest.pages.find((p) => p.file === file);
+  const currentManifest: { pages: Page[] } = JSON.parse(
+    readFileSync(join(root, "src/manifest.json"), "utf8")
+  );
+  const page = currentManifest.pages.find((p) => p.file === file);
   if (!page) throw new Error(`No manifest entry for ${file}`);
   return page;
 }

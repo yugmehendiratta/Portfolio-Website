@@ -80,17 +80,17 @@ export default function HeroAbout() {
                       </span>
                     </h1>
                   </div>
-                  <div className="framer-3uhcie hidden-7h10me" data-framer-name="Tag" style={{ transform: "rotate(14deg)" }}>
+                  <div className="framer-3uhcie" data-framer-name="Tag" style={{ transform: "rotate(14deg)" }}>
                     <div className="framer-1j2twoc" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                       <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                        {"Currently at Meridian Health"}
+                        {"Still curious, still leveling up"}
                       </p>
                     </div>
                   </div>
-                  <div className="framer-l9afbe hidden-7h10me" data-framer-name="Tag" style={{ transform: "rotate(-8deg)" }}>
+                  <div className="framer-l9afbe" data-framer-name="Tag" style={{ transform: "rotate(-8deg)" }}>
                     <div className="framer-1hfuatx" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                       <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                        {"Previously at Searchless AI"}
+                        {"Chasing the next hard problem"}
                       </p>
                     </div>
                   </div>
@@ -119,17 +119,17 @@ export default function HeroAbout() {
                       </span>
                     </h1>
                   </div>
-                  <div className="framer-3uhcie hidden-7h10me" data-framer-name="Tag" style={{ transform: "rotate(14deg)" }}>
+                  <div className="framer-3uhcie" data-framer-name="Tag" style={{ transform: "rotate(14deg)" }}>
                     <div className="framer-1j2twoc" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                       <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                        {"Currently at Meridian Health"}
+                        {"Still curious, still leveling up"}
                       </p>
                     </div>
                   </div>
-                  <div className="framer-l9afbe hidden-7h10me" data-framer-name="Tag" style={{ transform: "rotate(-8deg)" }}>
+                  <div className="framer-l9afbe" data-framer-name="Tag" style={{ transform: "rotate(-8deg)" }}>
                     <div className="framer-1hfuatx" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                       <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                        {"Previously at Searchless AI"}
+                        {"Chasing the next hard problem"}
                       </p>
                     </div>
                   </div>
@@ -250,45 +250,21 @@ export default function HeroAbout() {
                   <div className="ssr-variant hidden-6kqop5 hidden-7h10me">
                     <div style={{ width: "100%", transform: "translateZ(0)" }}>
                       <p style={{ fontFamily: "\"Inter Display\", \"Inter Display Placeholder\", sans-serif", fontWeight: "500", fontSize: "40px", lineHeight: "1.1", letterSpacing: "-0.03em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", textAlign: "center", margin: "0", padding: "0", display: "block", width: "100%", whiteSpace: "pre-wrap" }}>
-                        {"I design "}
-                        <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
-                          <img src="/assets/img/5d8fa1f66a1e6dd3.webp" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
-                        </span>
-                        {" outstanding digital products "}
-                        <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
-                          <img src="/assets/img/04905598dd8a5130.svg" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
-                        </span>
-                        {"."}
+                        {"Messy problems, clean screens 🎯."}
                       </p>
                     </div>
                   </div>
                   <div className="ssr-variant hidden-s8d5gr hidden-7h10me">
                     <div style={{ width: "100%", transform: "translateZ(0)" }}>
                       <p style={{ fontFamily: "\"Inter Display\", \"Inter Display Placeholder\", sans-serif", fontWeight: "500", fontSize: "32px", lineHeight: "1.1", letterSpacing: "-0.03em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", textAlign: "center", margin: "0", padding: "0", display: "block", width: "100%", whiteSpace: "pre-wrap" }}>
-                        {"I design "}
-                        <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
-                          <img src="/assets/img/5d8fa1f66a1e6dd3.webp" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
-                        </span>
-                        {" outstanding digital products "}
-                        <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
-                          <img src="/assets/img/04905598dd8a5130.svg" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
-                        </span>
-                        {"."}
+                        {"Messy problems, clean screens 🎯."}
                       </p>
                     </div>
                   </div>
                   <div className="ssr-variant hidden-s8d5gr hidden-6kqop5">
                     <div style={{ width: "100%", transform: "translateZ(0)" }}>
                       <p style={{ fontFamily: "\"Inter Display\", \"Inter Display Placeholder\", sans-serif", fontWeight: "500", fontSize: "28px", lineHeight: "1.1", letterSpacing: "-0.03em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", textAlign: "center", margin: "0", padding: "0", display: "block", width: "100%", whiteSpace: "pre-wrap" }}>
-                        {"I design "}
-                        <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
-                          <img src="/assets/img/5d8fa1f66a1e6dd3.webp" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
-                        </span>
-                        {" outstanding digital products "}
-                        <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
-                          <img src="/assets/img/04905598dd8a5130.svg" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
-                        </span>
-                        {"."}
+                        {"Messy problems, clean screens 🎯."}
                       </p>
                     </div>
                   </div>
@@ -403,7 +379,7 @@ export default function HeroAbout() {
                   </div>
                 </div>
               </div>
-              <div className="framer-1m00fsl hidden-7h10me" data-border="true" data-framer-name="Chicago " style={{ opacity: "1", transform: "translate(-50%, -50%) rotate(-15deg)" }}>
+              <div className="framer-1m00fsl hidden-7h10me" data-border="true" data-framer-name="New Delhi NCR" style={{ opacity: "1", transform: "translate(-50%, -50%) rotate(-15deg)" }}>
                 <div data-framer-component-type="SVG" data-framer-name="Cursor" parentsize="0" _constraints="[object Object]" rotation="0" shadows="" className="framer-1u3kovf" aria-hidden="true" style={{ imageRendering: "pixelated", flexShrink: "0" }}>
                   <div className="svgContainer" style={{ width: "100%", height: "100%", aspectRatio: "inherit" }}>
                     <svg style={{ width: "100%", height: "100%", overflow: "visible" }}>
@@ -413,7 +389,7 @@ export default function HeroAbout() {
                 </div>
                 <div className="framer-yvptgo" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                   <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))" }}>
-                    {"Chicago, IL"}
+                    {"New Delhi NCR"}
                   </p>
                 </div>
                 <div className="framer-1oacudz-container">
@@ -509,15 +485,15 @@ export default function HeroAbout() {
                       <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0.1em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
                         <img src="/assets/img/f8bcca3b7e63b449.webp" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
                       </span>
-                      {" a product designer in Chicago who gets excited "}
+                      {", a UI/UX and Product Designer focused on creating clear, thoughtful digital experiences. I work across SaaS, AI products, e-commerce, and digital platforms "}
                       <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0.1em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
                         <img src="/assets/img/879e5ff02dd6933a.webp" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
                       </span>
-                      {" about making complicated things simple "}
+                      {", turning complex ideas into simple and usable interfaces "}
                       <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0.1em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
                         <img src="/assets/img/105ba28fe00f997a.webp" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
                       </span>
-                      {". "}
+                      {"."}
                     </p>
                   </div>
                 </div>
@@ -528,15 +504,15 @@ export default function HeroAbout() {
                       <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0.1em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
                         <img src="/assets/img/f8bcca3b7e63b449.webp" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
                       </span>
-                      {" a product designer in Chicago who gets excited "}
+                      {", a UI/UX and Product Designer focused on creating clear, thoughtful digital experiences. I work across SaaS, AI products, e-commerce, and digital platforms "}
                       <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0.1em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
                         <img src="/assets/img/879e5ff02dd6933a.webp" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
                       </span>
-                      {" about making complicated things simple "}
+                      {", turning complex ideas into simple and usable interfaces "}
                       <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0.1em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
                         <img src="/assets/img/105ba28fe00f997a.webp" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
                       </span>
-                      {". "}
+                      {"."}
                     </p>
                   </div>
                 </div>
@@ -547,15 +523,15 @@ export default function HeroAbout() {
                       <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0.1em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
                         <img src="/assets/img/f8bcca3b7e63b449.webp" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
                       </span>
-                      {" a product designer in Chicago who gets excited "}
+                      {", a UI/UX and Product Designer focused on creating clear, thoughtful digital experiences. I work across SaaS, AI products, e-commerce, and digital platforms "}
                       <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0.1em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
                         <img src="/assets/img/879e5ff02dd6933a.webp" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
                       </span>
-                      {" about making complicated things simple "}
+                      {", turning complex ideas into simple and usable interfaces "}
                       <span style={{ display: "inline-flex", alignItems: "center", height: "1em", margin: "0 0.1em", verticalAlign: "middle", transformOrigin: "center", willChange: "transform" }}>
                         <img src="/assets/img/105ba28fe00f997a.webp" alt="" style={{ height: "100%", width: "auto", display: "block", objectFit: "contain" }} loading="lazy" decoding="async" />
                       </span>
-                      {". "}
+                      {"."}
                     </p>
                   </div>
                 </div>
@@ -565,7 +541,7 @@ export default function HeroAbout() {
               <div className="framer-54pl82" data-framer-name="Tag">
                 <div className="framer-31wgst" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                   <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                    {"Interaction Design"}
+                    {"Research"}
                   </h4>
                 </div>
               </div>
@@ -577,7 +553,7 @@ export default function HeroAbout() {
               <div className="framer-1yf7kob" data-framer-name="Tag">
                 <div className="framer-qyyr1q" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                   <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                    {"Prototyping"}
+                    {"Wireframes"}
                   </h4>
                 </div>
               </div>
@@ -592,7 +568,7 @@ export default function HeroAbout() {
               <div className="framer-zperoz" data-framer-name="Tag">
                 <div className="framer-eoyoj8" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                   <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-color": "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))" }}>
-                    {"User Research"}
+                    {"Prototypes"}
                   </h4>
                 </div>
               </div>
@@ -617,7 +593,7 @@ export default function HeroAbout() {
               <div className="framer-1qr8pew" data-framer-name="Tag">
                 <div className="framer-vyqlo8" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                   <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                    {"Motion Design"}
+                    {"UI Design"}
                   </h4>
                 </div>
               </div>

@@ -13,18 +13,12 @@ export interface SkillsProps {
   children?: React.ReactNode;
 }
 
-// 10 portfolio skills and specializations
+// 4 portfolio skills and specializations
 export const DEFAULT_SKILLS: SkillItem[] = [
-  { name: "UI/UX Design", theme: "default" },
-  { name: "Product Design", theme: "blue" },
-  { name: "Interaction Design", theme: "dark" },
-  { name: "Design Systems", theme: "yellow" },
-  { name: "Prototyping", theme: "cyan" },
-  { name: "User Research", theme: "mint" },
-  { name: "SaaS Product Design", theme: "pink" },
-  { name: "AI Product Design", theme: "dark" },
-  { name: "E-commerce UX", theme: "orange" },
-  { name: "Responsive Web Design", theme: "blue" },
+  { name: "Research", theme: "pink" },
+  { name: "Wireframes", theme: "yellow" },
+  { name: "Prototypes", theme: "mint" },
+  { name: "UI Design", theme: "blue" },
 ];
 
 /**
