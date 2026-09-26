@@ -16,7 +16,7 @@ export default function HomePage() {
       {"\n    \n    "}
       <span data-fnj-slot={"1"} />
       {"\n\t\n\t"}
-      <div id="main">
+      <div id="main" data-framer-hydrate-v2={"{\"routeId\":\"IMzwiuEeL\",\"localeId\":\"default\",\"breakpoints\":[{\"hash\":\"s8d5gr\",\"mediaQuery\":\"(min-width: 1200px)\"},{\"hash\":\"6kqop5\",\"mediaQuery\":\"(min-width: 810px) and (max-width: 1199.98px)\"},{\"hash\":\"7h10me\",\"mediaQuery\":\"(max-width: 809.98px)\"},{\"hash\":\"7f13km\",\"mediaQuery\":\"(min-width: 1200px)\"},{\"hash\":\"17tolvd\",\"mediaQuery\":\"(min-width: 810px) and (max-width: 1199.98px)\"},{\"hash\":\"vb5p67\",\"mediaQuery\":\"(max-width: 809.98px)\"}]}"} data-framer-ssr-released-at="2026-08-12T12:02:11.066Z" data-framer-page-optimized-at="2026-08-18T02:31:16.103Z" data-framer-generated-page="">
         <Suspense fallback={null}>
           <style data-framer-html-style="" dangerouslySetInnerHTML={{ __html: ":root body { background: var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255)); }" }} />
           <div className="framer-ABWci framer-pDysL framer-SwHTo framer-erhBl framer-7f13km" data-framer-cursor="10lja5m" data-layout-template="true" style={{ minHeight: "100vh", width: "auto" }}>
@@ -73,6 +73,33 @@ export default function HomePage() {
       <span data-fnj-slot={"5"} />
       {"\n\t"}
       <span data-fnj-slot={"6"} />
+      <span data-fnj-slot={"7"} />
+      <span data-fnj-slot={"8"} />
+      <span data-fnj-slot={"9"} />
+      <span data-fnj-slot={"10"} />
+      <span data-fnj-slot={"11"} />
+      <span data-fnj-slot={"12"} />
+      <span data-fnj-slot={"13"} />
+      <span data-fnj-slot={"14"} />
+      <span data-fnj-slot={"15"} />
+      <span data-fnj-slot={"16"} />
+      <span data-fnj-slot={"17"} />
+      <span data-fnj-slot={"18"} />
+      <span data-fnj-slot={"19"} />
+      <span data-fnj-slot={"20"} />
+      <span data-fnj-slot={"21"} />
+      <span data-fnj-slot={"22"} />
+      <span data-fnj-slot={"23"} />
+      <span data-fnj-slot={"24"} />
+      <span data-fnj-slot={"25"} />
+      <span data-fnj-slot={"26"} />
+      <span data-fnj-slot={"27"} />
+      <span data-fnj-slot={"28"} />
+      <span data-fnj-slot={"29"} />
+      <span data-fnj-slot={"30"} />
+      <span data-fnj-slot={"31"} />
+      <span data-fnj-slot={"32"} />
+      <span data-fnj-slot={"33"} />
       <div id="svg-templates" style={{ position: "absolute", overflow: "hidden", bottom: "0", left: "0", width: "0", height: "0", zIndex: "0", contain: "strict" }} aria-hidden="true">
         {"\n"}
         <svg viewBox="0 0 28 26" overflow="visible" id="svg1378496346_348">
