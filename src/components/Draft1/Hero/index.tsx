@@ -33,7 +33,7 @@ export default function Hero({ className = "" }: HeroProps) {
               <div className="framer-1frrjid-container">
                 <Suspense fallback={null}>
                   <div style={{ fontFamily: "\"DM Mono\", \"DM Mono Placeholder\", monospace", fontSize: "14px", fontStyle: "normal", fontWeight: "500", letterSpacing: "-0.02em", lineHeight: "120%", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                    {"7:31:16 PM"}
+                    {"7:31:16 PM IST"}
                   </div>
                 </Suspense>
               </div>

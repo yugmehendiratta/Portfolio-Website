@@ -134,22 +134,22 @@ export default function Navbar({ className = "", activePath = "/" }: NavbarProps
               </div>
               <div className="framer-17yi1t" data-framer-name="Contact">
                 <div className="framer-119y192-container" id="undefined-119y192">
-                  <div className="framer-1W99m framer-NkuHG framer-zqh0pq framer-v-zqh0pq" data-framer-name="Intactive" data-highlight="true" style={{ backgroundColor: "var(--token-eee4728f-06ef-4d99-9d02-ac8944e7f6dd, rgb(226, 226, 226))", height: "100%", width: "100%", borderBottomLeftRadius: "32px", borderBottomRightRadius: "32px", borderTopLeftRadius: "32px", borderTopRightRadius: "32px" }}>
+                  <a className="framer-1W99m framer-NkuHG framer-zqh0pq framer-v-zqh0pq" data-framer-name="Intactive" data-highlight="true" href="mailto:work.yug29@gmail.com" style={{ backgroundColor: "var(--token-eee4728f-06ef-4d99-9d02-ac8944e7f6dd, rgb(226, 226, 226))", height: "100%", width: "100%", borderBottomLeftRadius: "32px", borderBottomRightRadius: "32px", borderTopLeftRadius: "32px", borderTopRightRadius: "32px", textDecoration: "none", display: "block" }}>
                     <div className="framer-1njt74i" data-framer-component-type="RichTextContainer" style={{ "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "translate(-50%, -50%)" }}>
                       <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto">
                         {"EM"}
                       </p>
                     </div>
-                  </div>
+                  </a>
                 </div>
                 <div className="framer-1yzdk2p-container" id="undefined-1yzdk2p">
-                  <div className="framer-1W99m framer-NkuHG framer-zqh0pq framer-v-zqh0pq" data-framer-name="Intactive" data-highlight="true" style={{ backgroundColor: "var(--token-eee4728f-06ef-4d99-9d02-ac8944e7f6dd, rgb(226, 226, 226))", height: "100%", width: "100%", borderBottomLeftRadius: "32px", borderBottomRightRadius: "32px", borderTopLeftRadius: "32px", borderTopRightRadius: "32px" }}>
+                  <a className="framer-1W99m framer-NkuHG framer-zqh0pq framer-v-zqh0pq" data-framer-name="Intactive" data-highlight="true" href="tel:+917988865453" style={{ backgroundColor: "var(--token-eee4728f-06ef-4d99-9d02-ac8944e7f6dd, rgb(226, 226, 226))", height: "100%", width: "100%", borderBottomLeftRadius: "32px", borderBottomRightRadius: "32px", borderTopLeftRadius: "32px", borderTopRightRadius: "32px", textDecoration: "none", display: "block" }}>
                     <div className="framer-1njt74i" data-framer-component-type="RichTextContainer" style={{ "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "translate(-50%, -50%)" }}>
                       <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto">
                         {"PH"}
                       </p>
                     </div>
-                  </div>
+                  </a>
                 </div>
                 <Suspense fallback={null}>
                   <div className="framer-darxr6-container">

@@ -256,11 +256,11 @@ export default function AllContent() {
                 </div>
               </section>
               <section className="framer-14jsokh" data-framer-name="My Story" id="my-story">
-                <div className="framer-1h8izsz" data-framer-name="Content">
-                  <div className="framer-3cnw1y" data-framer-name="Tag">
-                    <div className="framer-71winf" data-framer-name="Text">
-                      <div className="framer-19x1pr" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-                        <h2 className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-color": "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))" }}>
+                <div className="framer-foyt4c" data-framer-name="Content">
+                  <div className="framer-eox33i" data-framer-name="Tag">
+                    <div className="framer-nc06ra" data-framer-name="Text">
+                      <div className="framer-tzv26k" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
+                        <h2 className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
                           {"How I approach my work"}
                         </h2>
                       </div>
@@ -268,19 +268,17 @@ export default function AllContent() {
                   </div>
                   <div className="framer-ixsok6" data-border="true" data-framer-name="Bio">
                     <div className="framer-mpn7rf">
-                      <div className="ssr-variant">
-                        <div className="framer-15xqkt6-container">
-                          <div className="framer-6A3Mg framer-62fp8 framer-SwHTo framer-1sbsau2 framer-v-1sbsau2" data-framer-name="Heading + Content" style={{ backgroundColor: "var(--token-a40bc7b7-fed8-4930-b9f7-5dc39bc097a2, rgb(164, 229, 248))", width: "100%" }}>
-                            <div className="framer-1jcsxx1" data-framer-component-type="RichTextContainer" style={{ "--extracted-1eung3n": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
-                              <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-color": "var(--extracted-1eung3n, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                {"Research before wireframes"}
-                              </h4>
-                            </div>
-                            <div className="framer-lbfqwd" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
-                              <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                {"Before I open Figma, I want to know what's actually breaking for the user. Half the time, what someone asks for isn't what they need — the real problem is one layer deeper. My best work starts with a good question, not a good screen."}
-                              </p>
-                            </div>
+                      <div className="framer-15xqkt6-container">
+                        <div className="framer-6A3Mg framer-62fp8 framer-SwHTo framer-1sbsau2 framer-v-1sbsau2" data-framer-name="Heading + Content" style={{ backgroundColor: "var(--token-a40bc7b7-fed8-4930-b9f7-5dc39bc097a2, rgb(164, 229, 248))", width: "100%" }}>
+                          <div className="framer-1jcsxx1" data-framer-component-type="RichTextContainer" style={{ "--extracted-1eung3n": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
+                            <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-color": "var(--extracted-1eung3n, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
+                              {"Research before wireframes"}
+                            </h4>
+                          </div>
+                          <div className="framer-lbfqwd" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
+                            <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
+                              {"Before I open Figma, I want to know what's actually breaking for the user. Half the time, what someone asks for isn't what they need — the real problem is one layer deeper. My best work starts with a good question, not a good screen."}
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -304,35 +302,31 @@ export default function AllContent() {
                           <div data-framer-name="Arrow" className="framer-ZtICC framer-1ugaiiq" />
                         </div>
                       </div>
-                      <div className="ssr-variant">
-                        <div className="framer-705mjb-container">
-                          <div className="framer-6A3Mg framer-62fp8 framer-SwHTo framer-1sbsau2 framer-v-1sbsau2" data-framer-name="Heading + Content" style={{ backgroundColor: "var(--token-cd9da077-16e0-46f3-9a80-6bf4c2a79928, rgb(245, 221, 161))", width: "100%" }}>
-                            <div className="framer-1jcsxx1" data-framer-component-type="RichTextContainer" style={{ "--extracted-1eung3n": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
-                              <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-color": "var(--extracted-1eung3n, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                {"Designing inside real limitations"}
-                              </h4>
-                            </div>
-                            <div className="framer-lbfqwd" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
-                              <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                {"Agile sprints don't leave room for ideal conditions. Timelines are tight, feedback is half-formed, and sometimes the ask changes mid-sprint. I've learned to make confident calls with incomplete information instead of waiting for a perfect brief."}
-                              </p>
-                            </div>
+                      <div className="framer-705mjb-container">
+                        <div className="framer-6A3Mg framer-62fp8 framer-SwHTo framer-1sbsau2 framer-v-1sbsau2" data-framer-name="Heading + Content" style={{ backgroundColor: "var(--token-cd9da077-16e0-46f3-9a80-6bf4c2a79928, rgb(245, 221, 161))", width: "100%" }}>
+                          <div className="framer-1jcsxx1" data-framer-component-type="RichTextContainer" style={{ "--extracted-1eung3n": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
+                            <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-color": "var(--extracted-1eung3n, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
+                              {"Designing inside real limitations"}
+                            </h4>
+                          </div>
+                          <div className="framer-lbfqwd" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
+                            <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
+                              {"Agile sprints don't leave room for ideal conditions. Timelines are tight, feedback is half-formed, and sometimes the ask changes mid-sprint. I've learned to make confident calls with incomplete information instead of waiting for a perfect brief."}
+                            </p>
                           </div>
                         </div>
                       </div>
-                      <div className="ssr-variant">
-                        <div className="framer-bml7qr-container">
-                          <div className="framer-6A3Mg framer-62fp8 framer-SwHTo framer-1sbsau2 framer-v-1sbsau2" data-framer-name="Heading + Content" style={{ backgroundColor: "var(--token-3b25897c-a78c-4fb0-9a93-831975a769c1, rgb(161, 223, 197))", width: "100%" }}>
-                            <div className="framer-1jcsxx1" data-framer-component-type="RichTextContainer" style={{ "--extracted-1eung3n": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
-                              <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-color": "var(--extracted-1eung3n, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                {"Design + dev, not design vs. dev"}
-                              </h4>
-                            </div>
-                            <div className="framer-lbfqwd" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
-                              <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                {"I've sat close enough to engineers to know a design isn't done when it's \"handed off\" — it's done when it actually ships the way it was meant to. I'd rather loop in developers early than fix things after the fact."}
-                              </p>
-                            </div>
+                      <div className="framer-bml7qr-container">
+                        <div className="framer-6A3Mg framer-62fp8 framer-SwHTo framer-1sbsau2 framer-v-1sbsau2" data-framer-name="Heading + Content" style={{ backgroundColor: "var(--token-3b25897c-a78c-4fb0-9a93-831975a769c1, rgb(161, 223, 197))", width: "100%" }}>
+                          <div className="framer-1jcsxx1" data-framer-component-type="RichTextContainer" style={{ "--extracted-1eung3n": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
+                            <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-color": "var(--extracted-1eung3n, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
+                              {"Design + dev, not design vs. dev"}
+                            </h4>
+                          </div>
+                          <div className="framer-lbfqwd" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
+                            <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
+                              {"I've sat close enough to engineers to know a design isn't done when it's \"handed off\" — it's done when it actually ships the way it was meant to. I'd rather loop in developers early than fix things after the fact."}
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -356,19 +350,17 @@ export default function AllContent() {
                           <div data-framer-name="Arrow" className="framer-ZtICC framer-1t5eghs" />
                         </div>
                       </div>
-                      <div className="ssr-variant">
-                        <div className="framer-1pbq76w-container">
-                          <div className="framer-6A3Mg framer-62fp8 framer-SwHTo framer-1sbsau2 framer-v-1sbsau2" data-framer-name="Heading + Content" style={{ backgroundColor: "var(--token-221f5458-30ad-42f0-b005-7c3d9fe30e8d, rgb(250, 190, 209))", width: "100%" }}>
-                            <div className="framer-1jcsxx1" data-framer-component-type="RichTextContainer" style={{ "--extracted-1eung3n": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
-                              <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-color": "var(--extracted-1eung3n, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                {"Small details, real trust"}
-                              </h4>
-                            </div>
-                            <div className="framer-lbfqwd" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
-                              <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                {"AI speeds up variations, layouts, even copy — but it doesn't know when a screen has one element too many. That judgment call, the one that makes something feel trustworthy instead of just functional, is still mine to make."}
-                              </p>
-                            </div>
+                      <div className="framer-1pbq76w-container">
+                        <div className="framer-6A3Mg framer-62fp8 framer-SwHTo framer-1sbsau2 framer-v-1sbsau2" data-framer-name="Heading + Content" style={{ backgroundColor: "var(--token-221f5458-30ad-42f0-b005-7c3d9fe30e8d, rgb(250, 190, 209))", width: "100%" }}>
+                          <div className="framer-1jcsxx1" data-framer-component-type="RichTextContainer" style={{ "--extracted-1eung3n": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
+                            <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-color": "var(--extracted-1eung3n, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
+                              {"Small details, real trust"}
+                            </h4>
+                          </div>
+                          <div className="framer-lbfqwd" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
+                            <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
+                              {"AI speeds up variations, layouts, even copy — but it doesn't know when a screen has one element too many. That judgment call, the one that makes something feel trustworthy instead of just functional, is still mine to make."}
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -407,7 +399,7 @@ export default function AllContent() {
                     <div className="framer-nc06ra" data-framer-name="Text">
                       <div className="framer-tzv26k" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                         <h2 className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                          {"Work"}
+                          {"My work"}
                         </h2>
                       </div>
                     </div>
@@ -418,6 +410,60 @@ export default function AllContent() {
                       <div className="framer-iw10lq" data-border="true" data-framer-name="Rectangle" />
                       <div className="framer-11qzkjj" data-border="true" data-framer-name="Rectangle" />
                       <div className="framer-cis23f" data-border="true" data-framer-name="Rectangle" />
+                    </div>
+                    <div className="framer-6p0jh5" data-framer-name="Comment">
+                      <div className="framer-xanzq5" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
+                        <h5 className="framer-text framer-styles-preset-7q6rdi" data-styles-preset="JCTbwXFKE" dir="auto" style={{ "--framer-text-color": "var(--token-94d217a4-b19e-496f-a9f0-41c83f611b07, rgb(118, 119, 119))" }}>
+                          {"Timeline"}
+                        </h5>
+                      </div>
+                      <div className="framer-4y5xew" data-framer-name="Line" />
+                      <div className="framer-1no5cfb" data-framer-name="List works">
+                        <div className="framer-n3c4-container">
+                          <div className="framer-ec48W framer-62fp8 framer-SwHTo framer-erhBl framer-10gofpt framer-v-10gofpt" data-framer-name="Current" style={{ width: "100%" }}>
+                            <div className="framer-17g34jv" style={{ borderBottomLeftRadius: "32px", borderBottomRightRadius: "32px", borderTopLeftRadius: "32px", borderTopRightRadius: "32px" }}>
+                              <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
+                                <img decoding="async" loading="lazy" width="78" height="32" src="/assets/img/bcafdd9b85e25ea4.svg" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                              </div>
+                            </div>
+                            <div className="framer-13hmzbm" data-framer-name="Text + Icon">
+                              <div className="framer-10vmn3d" data-framer-name="Text">
+                                <div className="framer-wbeqe6" data-framer-component-type="RichTextContainer" style={{ "--extracted-1eung3n": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
+                                  <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-color": "var(--extracted-1eung3n, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
+                                    {"Arkanj Tech Solutions"}
+                                  </h4>
+                                  <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--token-94d217a4-b19e-496f-a9f0-41c83f611b07, rgb(118, 119, 119))", marginTop: "2px" }}>
+                                    {"UX Analyst"}
+                                  </p>
+                                </div>
+                                <div className="framer-zkzmni" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
+                                  <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
+                                    {"Owning end-to-end UX for client SaaS products — from user research and information architecture through wireframes to developer-ready Figma prototypes. The challenge is staying consistent across multiple products while working inside agile sprints, translating half-formed stakeholder feedback into decisions engineers can actually build."}
+                                  </p>
+                                </div>
+                              </div>
+                              <div className="framer-1m7f4yp" data-border="true" data-framer-name="React" style={{ "--border-bottom-width": "2px", "--border-color": "var(--token-1892785e-8581-4826-b411-015017430ad3, rgb(0, 94, 217))", "--border-left-width": "2px", "--border-right-width": "2px", "--border-style": "solid", "--border-top-width": "2px", backgroundColor: "var(--token-a40bc7b7-fed8-4930-b9f7-5dc39bc097a2, rgb(164, 229, 248))", borderBottomLeftRadius: "4px", borderBottomRightRadius: "4px", borderTopLeftRadius: "4px", borderTopRightRadius: "4px" }}>
+                                <div className="framer-1qlx9ve-container" data-code-component-plugin-id="84d4c1">
+                                  <Suspense fallback={null}>
+                                    <div style={{ width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
+                                      <svg width="100%" height="100%" viewBox="0 0 357 357" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" xmlns="http://www.w3.org/2000/svg">
+                                        {"\n"}
+                                        <path fillRule="evenodd" clipRule="evenodd" d="M161.287 0H279.807L203.041 101.593H346.847L91.972 355.528L169.695 184.3H26.7266L161.287 0Z" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
+                                        {"\n"}
+                                      </svg>
+                                    </div>
+                                  </Suspense>
+                                </div>
+                                <div className="framer-lnnxhg" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
+                                  <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
+                                    {"APR 2026 - CURRENT"}
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                     <div className="framer-1sty39j hidden-1hh7fxx" data-border="true" data-framer-name="Cursor Tag" style={{ opacity: "1", transform: "translateY(-50%) rotate(-11deg)" }}>
                       <div className="framer-161e4g2-container">
@@ -438,60 +484,95 @@ export default function AllContent() {
                         </p>
                       </div>
                     </div>
-                    <div className="framer-6p0jh5" data-framer-name="Comment">
-                      <div className="framer-xanzq5" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-                        <h5 className="framer-text framer-styles-preset-7q6rdi" data-styles-preset="JCTbwXFKE" dir="auto" style={{ "--framer-text-color": "var(--token-94d217a4-b19e-496f-a9f0-41c83f611b07, rgb(118, 119, 119))" }}>
-                          {"Timeline"}
-                        </h5>
+                  </div>
+                </div>
+              </section>
+              <section className="framer-o05pe9" data-framer-name="Awards" id="awards">
+                <div className="framer-foyt4c" data-framer-name="Contain">
+                  <div className="framer-eox33i" data-framer-name="Tag">
+                    <div className="framer-nc06ra" data-framer-name="Text">
+                      <div className="framer-tzv26k" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
+                        <h2 className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
+                          {"Awards & Achievements"}
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="framer-1ql5gwc" data-border="true" data-framer-name="Content">
+                    <div className="framer-6aawbq" data-framer-name="Border">
+                      <div className="framer-3cixhw" data-border="true" data-framer-name="Rectangle" />
+                      <div className="framer-iw10lq" data-border="true" data-framer-name="Rectangle" />
+                      <div className="framer-11qzkjj" data-border="true" data-framer-name="Rectangle" />
+                      <div className="framer-cis23f" data-border="true" data-framer-name="Rectangle" />
+                    </div>
+                    <div className="framer-6p0jh5" data-framer-name="Comment" style={{ gap: "20px" }}>
+                      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", width: "100%" }}>
+                        <div style={{ display: "inline-flex", alignItems: "center", gap: "6px", backgroundColor: "var(--token-cd9da077-16e0-46f3-9a80-6bf4c2a79928, rgb(245, 221, 161))", padding: "4px 10px", borderRadius: "4px", border: "2px solid var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
+                          <span style={{ fontSize: "14px", lineHeight: "1" }}>🏆</span>
+                          <span style={{ fontSize: "12px", fontWeight: 700, letterSpacing: "0.04em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>Q2 2026</span>
+                        </div>
+                      </div>
+                      <div>
+                        <h3 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ fontSize: "24px", fontWeight: 700, letterSpacing: "-0.02em", margin: "0 0 6px 0", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
+                          {"EMPLOYEE OF THE QUARTER"}
+                        </h3>
+                        <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ fontSize: "14px", fontWeight: 500, color: "var(--token-94d217a4-b19e-496f-a9f0-41c83f611b07, rgb(118, 119, 119))", margin: "0" }}>
+                          {"Yug Mehendiratta · UX Designer · Arkanj Tech Solutions Pvt. Ltd."}
+                        </p>
                       </div>
                       <div className="framer-4y5xew" data-framer-name="Line" />
-                      <div className="framer-1no5cfb" data-framer-name="List works">
-                        <div className="ssr-variant">
-                          <div className="framer-n3c4-container">
-                            <div className="framer-ec48W framer-62fp8 framer-SwHTo framer-erhBl framer-10gofpt framer-v-10gofpt" data-framer-name="Current" style={{ width: "100%" }}>
-                              <div className="framer-17g34jv" style={{ borderBottomLeftRadius: "32px", borderBottomRightRadius: "32px", borderTopLeftRadius: "32px", borderTopRightRadius: "32px" }}>
-                                <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                                  <img decoding="async" loading="lazy" width="78" height="32" src="/assets/img/bcafdd9b85e25ea4.svg" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
-                                </div>
-                              </div>
-                              <div className="framer-13hmzbm" data-framer-name="Text + Icon">
-                                <div className="framer-10vmn3d" data-framer-name="Text">
-                                  <div className="framer-wbeqe6" data-framer-component-type="RichTextContainer" style={{ "--extracted-1eung3n": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
-                                    <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-color": "var(--extracted-1eung3n, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                      {"Arkanj Tech Solutions"}
-                                    </h4>
-                                    <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--token-94d217a4-b19e-496f-a9f0-41c83f611b07, rgb(118, 119, 119))", marginTop: "2px" }}>
-                                      {"UX Analyst"}
-                                    </p>
-                                  </div>
-                                  <div className="framer-zkzmni" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
-                                    <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                      {"Owning end-to-end UX for client SaaS products — from user research and information architecture through wireframes to developer-ready Figma prototypes. The challenge is staying consistent across multiple products while working inside agile sprints, translating half-formed stakeholder feedback into decisions engineers can actually build."}
-                                    </p>
-                                  </div>
-                                </div>
-                                <div className="framer-1m7f4yp" data-border="true" data-framer-name="React" style={{ "--border-bottom-width": "2px", "--border-color": "var(--token-1892785e-8581-4826-b411-015017430ad3, rgb(0, 94, 217))", "--border-left-width": "2px", "--border-right-width": "2px", "--border-style": "solid", "--border-top-width": "2px", backgroundColor: "var(--token-a40bc7b7-fed8-4930-b9f7-5dc39bc097a2, rgb(164, 229, 248))", borderBottomLeftRadius: "4px", borderBottomRightRadius: "4px", borderTopLeftRadius: "4px", borderTopRightRadius: "4px" }}>
-                                  <div className="framer-1qlx9ve-container" data-code-component-plugin-id="84d4c1">
-                                    <Suspense fallback={null}>
-                                      <div style={{ width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
-                                        <svg width="100%" height="100%" viewBox="0 0 357 357" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" xmlns="http://www.w3.org/2000/svg">
-                                          {"\n"}
-                                          <path fillRule="evenodd" clipRule="evenodd" d="M161.287 0H279.807L203.041 101.593H346.847L91.972 355.528L169.695 184.3H26.7266L161.287 0Z" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
-                                          {"\n"}
-                                        </svg>
-                                      </div>
-                                    </Suspense>
-                                  </div>
-                                  <div className="framer-lnnxhg" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
-                                    <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                      {"APR 2026 - CURRENT"}
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                      <div style={{ display: "flex", flexDirection: "column", gap: "14px", width: "100%" }}>
+                        <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", margin: "0", lineHeight: "1.6" }}>
+                          {"Huge congratulations to Yug Mehendiratta, our Q2 2026 Employee of the Quarter!"}
+                        </p>
+                        <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", margin: "0", lineHeight: "1.6" }}>
+                          {"Yug Mehendiratta has truly shined this quarter as our UX designer. Their exceptional dedication to UX design and Video editing has made a massive impact on our team and our clients. Thank you for your hard work and outstanding results!"}
+                        </p>
+                        <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", margin: "0", lineHeight: "1.6" }}>
+                          {"At Arkanj Tech Solutions Pvt. Ltd., we strive to build the best place to work and grow. Seeing team members like Yug Mehendiratta thrive and advance their careers is exactly what our culture is all about."}
+                        </p>
+                      </div>
+                      <div style={{ paddingTop: "8px" }}>
+                        <a
+                          href="https://www.linkedin.com/in/yugmehendiratta"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          style={{
+                            display: "inline-flex",
+                            alignItems: "center",
+                            gap: "8px",
+                            backgroundColor: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))",
+                            color: "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))",
+                            padding: "10px 20px",
+                            borderRadius: "8px",
+                            fontSize: "13px",
+                            fontWeight: 500,
+                            textDecoration: "none",
+                            boxShadow: "0 2px 4px rgba(17, 18, 18, 0.1)"
+                          }}
+                        >
+                          <span>View LinkedIn Post</span>
+                          <span>↗</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="framer-1sty39j hidden-1hh7fxx" data-border="true" data-framer-name="Cursor Tag" style={{ opacity: "1", transform: "translateY(-50%) rotate(-11deg)" }}>
+                      <div className="framer-161e4g2-container">
+                        <Suspense fallback={null}>
+                          <div style={{ width: "0px", height: "0px" }} />
+                        </Suspense>
+                      </div>
+                      <div data-framer-component-type="SVG" data-framer-name="Cursor" parentsize="0" _constraints="[object Object]" rotation="0" shadows="" className="framer-1mrct6g" aria-hidden="true" style={{ imageRendering: "pixelated", flexShrink: "0" }}>
+                        <div className="svgContainer" style={{ width: "100%", height: "100%", aspectRatio: "inherit" }}>
+                          <svg style={{ width: "100%", height: "100%", overflow: "visible" }}>
+                            <use href="#svg52684662_392" />
+                          </svg>
                         </div>
+                      </div>
+                      <div className="framer-n52824" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
+                        <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
+                          {"Awards"}
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -504,3 +585,4 @@ export default function AllContent() {
     </div>
   );
 }
+
