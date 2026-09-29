@@ -35,7 +35,7 @@ export default function AboutPage() {
                 </div>
               </Suspense>
             </div>
-            <style data-framer-html-style="" dangerouslySetInnerHTML={{ __html: "html body { background: var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255)); }" }} />
+            <style data-framer-html-style="" dangerouslySetInnerHTML={{ __html: "html body { background: var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255)); } @media (min-width: 1200px) { .framer-NrOiv .framer-1ukjnmv { position: fixed !important; left: 48px !important; top: 50% !important; transform: translateY(-50%) !important; z-index: 50 !important; width: min-content !important; height: min-content !important; } }" }} />
             <div data-framer-root="" className="framer-NrOiv framer-9yfa1 framer-NkuHG framer-SwHTo framer-erhBl framer-0p8ff framer-tfqf9 framer-1fzvxue" style={{ minHeight: "100vh", width: "auto", display: "contents" }}>
               <div className="framer-1tvkrgo-container" data-framer-name="Smooth Scroll" name="Smooth Scroll">
                 <Suspense fallback={null}>
