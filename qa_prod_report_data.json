@@ -1,0 +1,800 @@
+{
+  "1440x900": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "scrollWidth": 1440,
+    "scrollHeight": 900,
+    "hasHorizontalOverflow": false,
+    "sections": {
+      "bio": {
+        "exists": false
+      },
+      "story": {
+        "exists": false
+      },
+      "work": {
+        "exists": false
+      },
+      "awards": {
+        "exists": false
+      }
+    },
+    "storyCards": [],
+    "workDetails": {
+      "hasTimeline": false,
+      "hasArkanj": false,
+      "hasUXAnalyst": false,
+      "hasDates": false,
+      "fullSnippet": ""
+    },
+    "awardsDetails": {
+      "hasHeading": false,
+      "hasQuarter": false,
+      "hasEmployeeOfQuarter": false,
+      "hasYug": false,
+      "hasLinkedIn": false,
+      "hasCertificate": false,
+      "fullSnippet": ""
+    },
+    "navLinks": [],
+    "legacyFound": [],
+    "allLinksCount": 0,
+    "links": []
+  },
+  "768x1024": {
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "scrollWidth": 768,
+    "scrollHeight": 1024,
+    "hasHorizontalOverflow": false,
+    "sections": {
+      "bio": {
+        "exists": false
+      },
+      "story": {
+        "exists": false
+      },
+      "work": {
+        "exists": false
+      },
+      "awards": {
+        "exists": false
+      }
+    },
+    "storyCards": [],
+    "workDetails": {
+      "hasTimeline": false,
+      "hasArkanj": false,
+      "hasUXAnalyst": false,
+      "hasDates": false,
+      "fullSnippet": ""
+    },
+    "awardsDetails": {
+      "hasHeading": false,
+      "hasQuarter": false,
+      "hasEmployeeOfQuarter": false,
+      "hasYug": false,
+      "hasLinkedIn": false,
+      "hasCertificate": false,
+      "fullSnippet": ""
+    },
+    "navLinks": [],
+    "legacyFound": [],
+    "allLinksCount": 0,
+    "links": []
+  },
+  "375x812": {
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "scrollWidth": 375,
+    "scrollHeight": 5440,
+    "hasHorizontalOverflow": false,
+    "sections": {
+      "bio": {
+        "exists": true,
+        "left": 16,
+        "right": 359,
+        "top": 284,
+        "width": 343,
+        "height": 988,
+        "isClippedLeft": false,
+        "isClippedRight": false
+      },
+      "story": {
+        "exists": true,
+        "left": 16,
+        "right": 359,
+        "top": 1372,
+        "width": 343,
+        "height": 1557,
+        "isClippedLeft": false,
+        "isClippedRight": false
+      },
+      "work": {
+        "exists": true,
+        "left": 16,
+        "right": 359,
+        "top": 3029,
+        "width": 343,
+        "height": 424,
+        "isClippedLeft": false,
+        "isClippedRight": false
+      },
+      "awards": {
+        "exists": true,
+        "left": 16,
+        "right": 359,
+        "top": 3552,
+        "width": 343,
+        "height": 610,
+        "isClippedLeft": false,
+        "isClippedRight": false
+      }
+    },
+    "storyCards": [
+      {
+        "index": 1,
+        "text": "Research before wireframes  Before I open Figma, I",
+        "left": 40,
+        "right": 335,
+        "width": 295,
+        "height": 272,
+        "clipped": false
+      },
+      {
+        "index": 2,
+        "text": "Designing inside real limitations  Agile sprints d",
+        "left": 40,
+        "right": 335,
+        "width": 295,
+        "height": 272,
+        "clipped": false
+      },
+      {
+        "index": 3,
+        "text": "Design + dev, not design vs. dev  I've sat close e",
+        "left": 40,
+        "right": 335,
+        "width": 295,
+        "height": 252,
+        "clipped": false
+      },
+      {
+        "index": 4,
+        "text": "Small details, real trust  AI speeds up variations",
+        "left": 40,
+        "right": 335,
+        "width": 295,
+        "height": 272,
+        "clipped": false
+      }
+    ],
+    "workDetails": {
+      "hasTimeline": true,
+      "hasArkanj": true,
+      "hasUXAnalyst": true,
+      "hasDates": true,
+      "fullSnippet": "MY WORK\nTimeline\nArkanj Tech Solutions\n\nUX ANALYST\n\nOwning end-to-end UX for client SaaS products — from user research and information architecture through wireframes to developer-ready Figma prototypes. The challenge is staying consistent across multiple products while working inside agile sprints,"
+    },
+    "awardsDetails": {
+      "hasHeading": true,
+      "hasQuarter": true,
+      "hasEmployeeOfQuarter": true,
+      "hasYug": true,
+      "hasLinkedIn": true,
+      "hasCertificate": false,
+      "fullSnippet": "AWARDS & ACHIEVEMENTS\n🏆\nQ2 2026\nEMPLOYEE OF THE QUARTER\n\nYUG MEHENDIRATTA · UX DESIGNER · ARKANJ TECH SOLUTIONS PVT. LTD.\n\nHuge congratulations to Yug Mehendiratta, our Q2 2026 Employee of the Quarter!\n\nYug Mehendiratta has truly shined this quarter as our UX designer. Their exceptional dedication "
+    },
+    "navLinks": [
+      {
+        "text": "BIO",
+        "href": "./about#mainbio",
+        "rect": {
+          "left": 52,
+          "top": 767,
+          "width": 56,
+          "height": 62
+        }
+      },
+      {
+        "text": "STORY",
+        "href": "./about#my-story",
+        "rect": {
+          "left": 124,
+          "top": 767,
+          "width": 56,
+          "height": 62
+        }
+      },
+      {
+        "text": "WORK",
+        "href": "./about#work",
+        "rect": {
+          "left": 196,
+          "top": 767,
+          "width": 56,
+          "height": 62
+        }
+      },
+      {
+        "text": "AWARDS",
+        "href": "./about#awards",
+        "rect": {
+          "left": 268,
+          "top": 767,
+          "width": 56,
+          "height": 62
+        }
+      }
+    ],
+    "legacyFound": [],
+    "allLinksCount": 6,
+    "links": [
+      {
+        "text": "BIO",
+        "href": "https://yug-designsite.vercel.app/about#mainbio",
+        "target": ""
+      },
+      {
+        "text": "STORY",
+        "href": "https://yug-designsite.vercel.app/about#my-story",
+        "target": ""
+      },
+      {
+        "text": "WORK",
+        "href": "https://yug-designsite.vercel.app/about#work",
+        "target": ""
+      },
+      {
+        "text": "AWARDS",
+        "href": "https://yug-designsite.vercel.app/about#awards",
+        "target": ""
+      },
+      {
+        "text": "View LinkedIn Post ↗",
+        "href": "https://www.linkedin.com/in/yugmehendiratta",
+        "target": "_blank"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://yug-designsite.vercel.app/contact",
+        "target": ""
+      }
+    ]
+  },
+  "interactiveNav": [
+    {
+      "target": "#mainbio",
+      "linkFound": true,
+      "linkHref": "./about#mainbio",
+      "targetTopRelativeToViewport": 0,
+      "targetInView": true,
+      "currentScrollY": 364
+    },
+    {
+      "target": "#my-story",
+      "linkFound": true,
+      "linkHref": "./about#my-story",
+      "targetTopRelativeToViewport": 0,
+      "targetInView": true,
+      "currentScrollY": 1248
+    },
+    {
+      "target": "#work",
+      "linkFound": true,
+      "linkHref": "./about#work",
+      "targetTopRelativeToViewport": 0,
+      "targetInView": true,
+      "currentScrollY": 2781
+    },
+    {
+      "target": "#awards",
+      "linkFound": true,
+      "linkHref": "./about#awards",
+      "targetTopRelativeToViewport": 0,
+      "targetInView": true,
+      "currentScrollY": 3321
+    }
+  ],
+  "contactAndSocial": {
+    "contactLinks": [
+      {
+        "text": "EM",
+        "href": "mailto:work.yug29@gmail.com"
+      },
+      {
+        "text": "PH",
+        "href": "tel:+917988865453"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://yug-designsite.vercel.app/contact"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://yug-designsite.vercel.app/contact"
+      }
+    ],
+    "linkedinLinks": [
+      {
+        "text": "View LinkedIn Post\n↗",
+        "href": "https://www.linkedin.com/in/yugmehendiratta",
+        "target": "_blank"
+      }
+    ]
+  },
+  "technical": {
+    "consoleMessages": [
+      {
+        "type": "exception",
+        "details": {
+          "exceptionId": 1,
+          "text": "Uncaught",
+          "lineNumber": 7,
+          "columnNumber": 73756,
+          "scriptId": "17",
+          "url": "https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs",
+          "stackTrace": {
+            "callFrames": [
+              {
+                "functionName": "Bc.hydrateRoot",
+                "scriptId": "17",
+                "url": "https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs",
+                "lineNumber": 7,
+                "columnNumber": 73756
+              },
+              {
+                "functionName": "",
+                "scriptId": "29",
+                "url": "https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs",
+                "lineNumber": 238,
+                "columnNumber": 3664
+              },
+              {
+                "functionName": "y.startTransition",
+                "scriptId": "17",
+                "url": "https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs",
+                "lineNumber": 0,
+                "columnNumber": 6635
+              },
+              {
+                "functionName": "",
+                "scriptId": "29",
+                "url": "https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs",
+                "lineNumber": 238,
+                "columnNumber": 3657
+              },
+              {
+                "functionName": "",
+                "scriptId": "29",
+                "url": "https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs",
+                "lineNumber": 238,
+                "columnNumber": 3775
+              },
+              {
+                "functionName": "",
+                "scriptId": "8",
+                "url": "https://yug-designsite.vercel.app/assets/framer/rolldown-runtime.Dh6celcD.mjs",
+                "lineNumber": 0,
+                "columnNumber": 77
+              },
+              {
+                "functionName": "",
+                "scriptId": "29",
+                "url": "https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs",
+                "lineNumber": 238,
+                "columnNumber": 3780
+              }
+            ]
+          },
+          "exception": {
+            "type": "object",
+            "subtype": "error",
+            "className": "Error",
+            "description": "Error: Minified React error #405; visit https://reactjs.org/docs/error-decoder.html?invariant=405 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at Bc.hydrateRoot (https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs:8:73757)\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3665\n    at y.startTransition (https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs:1:6636)\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3658\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3776\n    at https://yug-designsite.vercel.app/assets/framer/rolldown-runtime.Dh6celcD.mjs:1:78\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3781",
+            "objectId": "5404311609056186566.2.1",
+            "preview": {
+              "type": "object",
+              "subtype": "error",
+              "description": "Error: Minified React error #405; visit https://reactjs.org/docs/error-decoder.html?invariant=405 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at Bc.hydrateRoot (https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs:8:73757)\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3665\n    at y.startTransition (https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs:1:6636)\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3658\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3776\n    at https://yug-designsite.vercel.app/assets/framer/rolldown-runtime.Dh6celcD.mjs:1:78\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3781",
+              "overflow": false,
+              "properties": [
+                {
+                  "name": "stack",
+                  "type": "string",
+                  "value": "Error: Minified React error #405; visit https://re…p/assets/framer/script_main.B4-njmYi.mjs:239:3781"
+                },
+                {
+                  "name": "message",
+                  "type": "string",
+                  "value": "Minified React error #405; visit https://reactjs.o… for full errors and additional helpful warnings."
+                }
+              ]
+            }
+          },
+          "executionContextId": 2
+        }
+      },
+      {
+        "type": "messageAdded",
+        "level": "error",
+        "text": "SyntaxError: Unexpected token '}'"
+      },
+      {
+        "type": "console",
+        "level": "error",
+        "args": [
+          {
+            "type": "object",
+            "subtype": "error",
+            "className": "SyntaxError",
+            "description": "SyntaxError: Unexpected token '}'",
+            "objectId": "5404311609056186566.2.2",
+            "preview": {
+              "type": "object",
+              "subtype": "error",
+              "description": "SyntaxError: Unexpected token '}'",
+              "overflow": false,
+              "properties": [
+                {
+                  "name": "stack",
+                  "type": "string",
+                  "value": "SyntaxError: Unexpected token '}'"
+                },
+                {
+                  "name": "message",
+                  "type": "string",
+                  "value": "Unexpected token '}'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "messageAdded",
+        "level": "error",
+        "text": "Fatal error.\nIn case the issue persists, report this to the Framer team via https://www.framer.com/contact/:\nSyntaxError: Unexpected token '}'"
+      },
+      {
+        "type": "console",
+        "level": "error",
+        "args": [
+          {
+            "type": "string",
+            "value": "Fatal error.\nIn case the issue persists, report this to the Framer team via https://www.framer.com/contact/:\nSyntaxError: Unexpected token '}'"
+          }
+        ]
+      },
+      {
+        "type": "exception",
+        "details": {
+          "exceptionId": 2,
+          "text": "Uncaught",
+          "lineNumber": 7,
+          "columnNumber": 73756,
+          "scriptId": "17",
+          "url": "https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs",
+          "stackTrace": {
+            "callFrames": [
+              {
+                "functionName": "Bc.hydrateRoot",
+                "scriptId": "17",
+                "url": "https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs",
+                "lineNumber": 7,
+                "columnNumber": 73756
+              },
+              {
+                "functionName": "",
+                "scriptId": "29",
+                "url": "https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs",
+                "lineNumber": 238,
+                "columnNumber": 3664
+              },
+              {
+                "functionName": "y.startTransition",
+                "scriptId": "17",
+                "url": "https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs",
+                "lineNumber": 0,
+                "columnNumber": 6635
+              },
+              {
+                "functionName": "",
+                "scriptId": "29",
+                "url": "https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs",
+                "lineNumber": 238,
+                "columnNumber": 3657
+              },
+              {
+                "functionName": "",
+                "scriptId": "29",
+                "url": "https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs",
+                "lineNumber": 238,
+                "columnNumber": 3775
+              },
+              {
+                "functionName": "",
+                "scriptId": "8",
+                "url": "https://yug-designsite.vercel.app/assets/framer/rolldown-runtime.Dh6celcD.mjs",
+                "lineNumber": 0,
+                "columnNumber": 77
+              },
+              {
+                "functionName": "",
+                "scriptId": "29",
+                "url": "https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs",
+                "lineNumber": 238,
+                "columnNumber": 3780
+              }
+            ]
+          },
+          "exception": {
+            "type": "object",
+            "subtype": "error",
+            "className": "Error",
+            "description": "Error: Minified React error #405; visit https://reactjs.org/docs/error-decoder.html?invariant=405 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at Bc.hydrateRoot (https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs:8:73757)\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3665\n    at y.startTransition (https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs:1:6636)\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3658\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3776\n    at https://yug-designsite.vercel.app/assets/framer/rolldown-runtime.Dh6celcD.mjs:1:78\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3781",
+            "objectId": "5404311609056186566.3.1",
+            "preview": {
+              "type": "object",
+              "subtype": "error",
+              "description": "Error: Minified React error #405; visit https://reactjs.org/docs/error-decoder.html?invariant=405 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at Bc.hydrateRoot (https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs:8:73757)\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3665\n    at y.startTransition (https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs:1:6636)\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3658\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3776\n    at https://yug-designsite.vercel.app/assets/framer/rolldown-runtime.Dh6celcD.mjs:1:78\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3781",
+              "overflow": false,
+              "properties": [
+                {
+                  "name": "stack",
+                  "type": "string",
+                  "value": "Error: Minified React error #405; visit https://re…p/assets/framer/script_main.B4-njmYi.mjs:239:3781"
+                },
+                {
+                  "name": "message",
+                  "type": "string",
+                  "value": "Minified React error #405; visit https://reactjs.o… for full errors and additional helpful warnings."
+                }
+              ]
+            }
+          },
+          "executionContextId": 3
+        }
+      },
+      {
+        "type": "messageAdded",
+        "level": "error",
+        "text": "SyntaxError: Unexpected token '}'"
+      },
+      {
+        "type": "console",
+        "level": "error",
+        "args": [
+          {
+            "type": "object",
+            "subtype": "error",
+            "className": "SyntaxError",
+            "description": "SyntaxError: Unexpected token '}'",
+            "objectId": "5404311609056186566.3.2",
+            "preview": {
+              "type": "object",
+              "subtype": "error",
+              "description": "SyntaxError: Unexpected token '}'",
+              "overflow": false,
+              "properties": [
+                {
+                  "name": "stack",
+                  "type": "string",
+                  "value": "SyntaxError: Unexpected token '}'"
+                },
+                {
+                  "name": "message",
+                  "type": "string",
+                  "value": "Unexpected token '}'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "messageAdded",
+        "level": "error",
+        "text": "Fatal error.\nIn case the issue persists, report this to the Framer team via https://www.framer.com/contact/:\nSyntaxError: Unexpected token '}'"
+      },
+      {
+        "type": "console",
+        "level": "error",
+        "args": [
+          {
+            "type": "string",
+            "value": "Fatal error.\nIn case the issue persists, report this to the Framer team via https://www.framer.com/contact/:\nSyntaxError: Unexpected token '}'"
+          }
+        ]
+      },
+      {
+        "type": "exception",
+        "details": {
+          "exceptionId": 3,
+          "text": "Uncaught",
+          "lineNumber": 7,
+          "columnNumber": 73756,
+          "scriptId": "17",
+          "url": "https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs",
+          "stackTrace": {
+            "callFrames": [
+              {
+                "functionName": "Bc.hydrateRoot",
+                "scriptId": "17",
+                "url": "https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs",
+                "lineNumber": 7,
+                "columnNumber": 73756
+              },
+              {
+                "functionName": "",
+                "scriptId": "29",
+                "url": "https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs",
+                "lineNumber": 238,
+                "columnNumber": 3664
+              },
+              {
+                "functionName": "y.startTransition",
+                "scriptId": "17",
+                "url": "https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs",
+                "lineNumber": 0,
+                "columnNumber": 6635
+              },
+              {
+                "functionName": "",
+                "scriptId": "29",
+                "url": "https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs",
+                "lineNumber": 238,
+                "columnNumber": 3657
+              },
+              {
+                "functionName": "",
+                "scriptId": "29",
+                "url": "https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs",
+                "lineNumber": 238,
+                "columnNumber": 3775
+              },
+              {
+                "functionName": "",
+                "scriptId": "8",
+                "url": "https://yug-designsite.vercel.app/assets/framer/rolldown-runtime.Dh6celcD.mjs",
+                "lineNumber": 0,
+                "columnNumber": 77
+              },
+              {
+                "functionName": "",
+                "scriptId": "29",
+                "url": "https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs",
+                "lineNumber": 238,
+                "columnNumber": 3780
+              }
+            ]
+          },
+          "exception": {
+            "type": "object",
+            "subtype": "error",
+            "className": "Error",
+            "description": "Error: Minified React error #405; visit https://reactjs.org/docs/error-decoder.html?invariant=405 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at Bc.hydrateRoot (https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs:8:73757)\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3665\n    at y.startTransition (https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs:1:6636)\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3658\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3776\n    at https://yug-designsite.vercel.app/assets/framer/rolldown-runtime.Dh6celcD.mjs:1:78\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3781",
+            "objectId": "5404311609056186566.4.1",
+            "preview": {
+              "type": "object",
+              "subtype": "error",
+              "description": "Error: Minified React error #405; visit https://reactjs.org/docs/error-decoder.html?invariant=405 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at Bc.hydrateRoot (https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs:8:73757)\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3665\n    at y.startTransition (https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs:1:6636)\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3658\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3776\n    at https://yug-designsite.vercel.app/assets/framer/rolldown-runtime.Dh6celcD.mjs:1:78\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3781",
+              "overflow": false,
+              "properties": [
+                {
+                  "name": "stack",
+                  "type": "string",
+                  "value": "Error: Minified React error #405; visit https://re…p/assets/framer/script_main.B4-njmYi.mjs:239:3781"
+                },
+                {
+                  "name": "message",
+                  "type": "string",
+                  "value": "Minified React error #405; visit https://reactjs.o… for full errors and additional helpful warnings."
+                }
+              ]
+            }
+          },
+          "executionContextId": 4
+        }
+      },
+      {
+        "type": "exception",
+        "details": {
+          "exceptionId": 4,
+          "text": "Uncaught",
+          "lineNumber": 7,
+          "columnNumber": 73756,
+          "scriptId": "17",
+          "url": "https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs",
+          "stackTrace": {
+            "callFrames": [
+              {
+                "functionName": "Bc.hydrateRoot",
+                "scriptId": "17",
+                "url": "https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs",
+                "lineNumber": 7,
+                "columnNumber": 73756
+              },
+              {
+                "functionName": "",
+                "scriptId": "29",
+                "url": "https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs",
+                "lineNumber": 238,
+                "columnNumber": 3664
+              },
+              {
+                "functionName": "y.startTransition",
+                "scriptId": "17",
+                "url": "https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs",
+                "lineNumber": 0,
+                "columnNumber": 6635
+              },
+              {
+                "functionName": "",
+                "scriptId": "29",
+                "url": "https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs",
+                "lineNumber": 238,
+                "columnNumber": 3657
+              },
+              {
+                "functionName": "",
+                "scriptId": "29",
+                "url": "https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs",
+                "lineNumber": 238,
+                "columnNumber": 3775
+              },
+              {
+                "functionName": "",
+                "scriptId": "8",
+                "url": "https://yug-designsite.vercel.app/assets/framer/rolldown-runtime.Dh6celcD.mjs",
+                "lineNumber": 0,
+                "columnNumber": 77
+              },
+              {
+                "functionName": "",
+                "scriptId": "29",
+                "url": "https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs",
+                "lineNumber": 238,
+                "columnNumber": 3780
+              }
+            ]
+          },
+          "exception": {
+            "type": "object",
+            "subtype": "error",
+            "className": "Error",
+            "description": "Error: Minified React error #405; visit https://reactjs.org/docs/error-decoder.html?invariant=405 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at Bc.hydrateRoot (https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs:8:73757)\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3665\n    at y.startTransition (https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs:1:6636)\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3658\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3776\n    at https://yug-designsite.vercel.app/assets/framer/rolldown-runtime.Dh6celcD.mjs:1:78\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3781",
+            "objectId": "5404311609056186566.5.1",
+            "preview": {
+              "type": "object",
+              "subtype": "error",
+              "description": "Error: Minified React error #405; visit https://reactjs.org/docs/error-decoder.html?invariant=405 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at Bc.hydrateRoot (https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs:8:73757)\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3665\n    at y.startTransition (https://yug-designsite.vercel.app/assets/framer/react.73Opg4Pm.mjs:1:6636)\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3658\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3776\n    at https://yug-designsite.vercel.app/assets/framer/rolldown-runtime.Dh6celcD.mjs:1:78\n    at https://yug-designsite.vercel.app/assets/framer/script_main.B4-njmYi.mjs:239:3781",
+              "overflow": false,
+              "properties": [
+                {
+                  "name": "stack",
+                  "type": "string",
+                  "value": "Error: Minified React error #405; visit https://re…p/assets/framer/script_main.B4-njmYi.mjs:239:3781"
+                },
+                {
+                  "name": "message",
+                  "type": "string",
+                  "value": "Minified React error #405; visit https://reactjs.o… for full errors and additional helpful warnings."
+                }
+              ]
+            }
+          },
+          "executionContextId": 5
+        }
+      }
+    ],
+    "failedRequests": [],
+    "totalRequests": 241
+  }
+}
