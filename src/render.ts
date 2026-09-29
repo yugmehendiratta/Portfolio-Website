@@ -84,11 +84,9 @@ export async function renderPage(page: Page, Component: ComponentType): Promise<
     body = body.replace(`<span data-fnj-slot="${i}"></span>`, () => frag);
   });
 
-  // React inserts <!-- --> between adjacent text nodes so IT can hydrate them
-  // later. Nothing here hydrates through React — Framer's own runtime adopts
-  // this DOM — so the separators are dead weight, and the last remaining
-  // difference from the original bytes.
-  body = body.replace(/<!-- -->/g, "");
+  // React inserts <!-- --> between adjacent text nodes so IT can hydrate them.
+  // Framer runtime uses hydrateRoot, so keep them intact.
+  // body = body.replace(/<!-- -->/g, "");
 
   // Canonical / og:url are stored ROOT-RELATIVE, because conversion happens
   // long before anyone knows which domain will serve this. Render time is when
