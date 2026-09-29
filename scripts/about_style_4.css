@@ -1,0 +1,14 @@
+
+@media (min-width: 1200px) {
+  .framer-HRoKa .framer-3uhcie { left: -190px !important; right: auto !important; top: -52px !important; padding: 12px 16px !important; z-index: 1 !important; display: flex !important; }
+  .framer-HRoKa .framer-l9afbe { right: -180px !important; left: auto !important; top: -45px !important; padding: 12px 16px !important; z-index: 2 !important; display: flex !important; }
+}
+@media (min-width: 810px) and (max-width: 1199.98px) {
+  .framer-HRoKa .framer-3uhcie { left: -140px !important; right: auto !important; top: -48px !important; padding: 10px 14px !important; z-index: 1 !important; display: flex !important; }
+  .framer-HRoKa .framer-l9afbe { right: -140px !important; left: auto !important; top: -42px !important; padding: 10px 14px !important; z-index: 2 !important; display: flex !important; }
+}
+@media (max-width: 809.98px) {
+  .framer-HRoKa .framer-165flm4 { gap: 75px !important; }
+  .framer-HRoKa .framer-3uhcie { left: -45px !important; right: auto !important; top: -65px !important; padding: 3px 6px !important; font-size: 10px !important; white-space: nowrap !important; max-width: 90vw !important; z-index: 1 !important; display: flex !important; }
+  .framer-HRoKa .framer-l9afbe { right: -45px !important; left: auto !important; top: -35px !important; padding: 3px 6px !important; font-size: 10px !important; white-space: nowrap !important; max-width: 90vw !important; z-index: 2 !important; display: flex !important; }
+}

@@ -1,4 +1,7 @@
-import React, { Suspense } from "react";
+import fs from 'node:fs';
+
+// 1. Recompose src/sections/about/AllContent.tsx
+const allContentCode = `import React, { Suspense } from "react";
 
 /** Generated from the Framer section "All content".
  *  Renders to the same DOM as the original — the Suspense boundaries here are
@@ -156,22 +159,22 @@ export default function AllContent() {
                     <Suspense fallback={null}>
                       <div className="ssr-variant hidden-1hh7fxx hidden-y5t7zo">
                         <div style={{ width: "100%", transform: "translateZ(0)" }}>
-                          <p style={{ fontFamily: "\"Inter Display\", \"Inter Display Placeholder\", sans-serif", fontWeight: "500", fontSize: "40px", lineHeight: "1.1", letterSpacing: "-0.03em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", textAlign: "left", margin: "0", padding: "0", display: "block", width: "100%", whiteSpace: "pre-wrap" }}>
-                            {"I'm Yug 🧠, a product designer obsessed with the \"why\" before the \"how.\""}
+                          <p style={{ fontFamily: "\\"Inter Display\\", \\"Inter Display Placeholder\\", sans-serif", fontWeight: "500", fontSize: "40px", lineHeight: "1.1", letterSpacing: "-0.03em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", textAlign: "left", margin: "0", padding: "0", display: "block", width: "100%", whiteSpace: "pre-wrap" }}>
+                            {"I'm Yug 🧠, a product designer obsessed with the \\"why\\" before the \\"how.\\""}
                           </p>
                         </div>
                       </div>
                       <div className="ssr-variant hidden-1fzvxue hidden-y5t7zo">
                         <div style={{ width: "100%", transform: "translateZ(0)" }}>
-                          <p style={{ fontFamily: "\"Inter Display\", \"Inter Display Placeholder\", sans-serif", fontWeight: "500", fontSize: "28px", lineHeight: "1.1", letterSpacing: "-0.03em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", textAlign: "left", margin: "0", padding: "0", display: "block", width: "100%", whiteSpace: "pre-wrap" }}>
-                            {"I'm Yug 🧠, a product designer obsessed with the \"why\" before the \"how.\""}
+                          <p style={{ fontFamily: "\\"Inter Display\\", \\"Inter Display Placeholder\\", sans-serif", fontWeight: "500", fontSize: "28px", lineHeight: "1.1", letterSpacing: "-0.03em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", textAlign: "left", margin: "0", padding: "0", display: "block", width: "100%", whiteSpace: "pre-wrap" }}>
+                            {"I'm Yug 🧠, a product designer obsessed with the \\"why\\" before the \\"how.\\""}
                           </p>
                         </div>
                       </div>
                       <div className="ssr-variant hidden-1fzvxue hidden-1hh7fxx">
                         <div style={{ width: "100%", transform: "translateZ(0)" }}>
-                          <p style={{ fontFamily: "\"Inter Display\", \"Inter Display Placeholder\", sans-serif", fontWeight: "500", fontSize: "32px", lineHeight: "1.1", letterSpacing: "-0.03em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", textAlign: "left", margin: "0", padding: "0", display: "block", width: "100%", whiteSpace: "pre-wrap" }}>
-                            {"I'm Yug 🧠, a product designer obsessed with the \"why\" before the \"how.\""}
+                          <p style={{ fontFamily: "\\"Inter Display\\", \\"Inter Display Placeholder\\", sans-serif", fontWeight: "500", fontSize: "32px", lineHeight: "1.1", letterSpacing: "-0.03em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", textAlign: "left", margin: "0", padding: "0", display: "block", width: "100%", whiteSpace: "pre-wrap" }}>
+                            {"I'm Yug 🧠, a product designer obsessed with the \\"why\\" before the \\"how.\\""}
                           </p>
                         </div>
                       </div>
@@ -180,7 +183,7 @@ export default function AllContent() {
                   <div className="framer-1af8o5" data-framer-name="List content">
                     <div className="framer-1lxxv7w" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                       <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                        {"I design for SaaS products, e-commerce platforms, and community websites — places where people don't have time to \"figure it out.\" My job is to make the path so obvious they never notice the design at all."}
+                        {"I design for SaaS products, e-commerce platforms, and community websites — places where people don't have time to \\"figure it out.\\" My job is to make the path so obvious they never notice the design at all."}
                       </p>
                     </div>
                     <div className="framer-t4ear5" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
@@ -344,7 +347,7 @@ export default function AllContent() {
                         </div>
                         <div className="framer-lbfqwd" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
                           <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                            {"I've sat close enough to engineers to know a design isn't done when it's \"handed off\" — it's done when it actually ships the way it was meant to. I'd rather loop in developers early than fix things after the fact."}
+                            {"I've sat close enough to engineers to know a design isn't done when it's \\"handed off\\" — it's done when it actually ships the way it was meant to. I'd rather loop in developers early than fix things after the fact."}
                           </p>
                         </div>
                       </div>
@@ -597,3 +600,7 @@ export default function AllContent() {
     </div>
   );
 }
+`;
+
+fs.writeFileSync('src/sections/about/AllContent.tsx', allContentCode);
+console.log('Updated src/sections/about/AllContent.tsx');
