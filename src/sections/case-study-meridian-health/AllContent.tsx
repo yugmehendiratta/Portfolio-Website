@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 
-/** Generated from the Framer section "All Content".
+/** Generated from the Framer section "All Content" for ArkCV Builder.
  *  Renders to the same DOM as the original — the Suspense boundaries here are
  *  Framer's hydration markers, so removing them would break its runtime.
  *  Everything else is ordinary JSX: edit it like any other component. */
@@ -22,8 +22,8 @@ export default function AllContent() {
                 <div className="framer-xpo76l" />
                 <div className="framer-71j951" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                   <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-alignment": "left", "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                    <time dateTime="2026-03-19T00:00:00.000Z">
-                      {"Mar 19, 2026"}
+                    <time dateTime="2026-07-01T00:00:00.000Z">
+                      {"May – July 2026"}
                     </time>
                   </p>
                 </div>
@@ -31,12 +31,12 @@ export default function AllContent() {
               <div className="framer-1obybnh">
                 <div className="framer-8rqc9p" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                   <h1 className="framer-text framer-styles-preset-4nri6j" data-styles-preset="Iep6i79Kc" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                    {"Meridian Health"}
+                    {"ArkCV Builder"}
                   </h1>
                 </div>
                 <div className="framer-lcr6b3" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                   <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-alignment": "left", "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                    {"When therapists spend less time clicking, they have more time for patients."}
+                    {"AI-powered resume and career platform that helps job seekers beat ATS filters and get discovered by recruiters."}
                   </p>
                 </div>
               </div>
@@ -51,7 +51,7 @@ export default function AllContent() {
                       <div className="framer-evvvbg" data-framer-name="Content" style={{ backgroundColor: "var(--token-eee4728f-06ef-4d99-9d02-ac8944e7f6dd, rgb(237, 237, 237))" }}>
                         <div className="framer-s1tccs" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--variable-reference-Ha3WZBmxl-jUfJHCvjJ)", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", "--variable-reference-Ha3WZBmxl-jUfJHCvjJ": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", transform: "none" }}>
                           <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--variable-reference-Ha3WZBmxl-jUfJHCvjJ))" }}>
-                            {"Healthcare"}
+                            {"UX Case Study"}
                           </p>
                         </div>
                       </div>
@@ -68,7 +68,7 @@ export default function AllContent() {
                       <div className="framer-evvvbg" data-framer-name="Content" style={{ backgroundColor: "var(--token-eee4728f-06ef-4d99-9d02-ac8944e7f6dd, rgb(237, 237, 237))" }}>
                         <div className="framer-s1tccs" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--variable-reference-Ha3WZBmxl-jUfJHCvjJ)", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", "--variable-reference-Ha3WZBmxl-jUfJHCvjJ": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", transform: "none" }}>
                           <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--variable-reference-Ha3WZBmxl-jUfJHCvjJ))" }}>
-                            {"Workflow Design"}
+                            {"AI Product"}
                           </p>
                         </div>
                       </div>
@@ -88,7 +88,7 @@ export default function AllContent() {
                 </div>
                 <div className="framer-16eli8k" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                   <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                    {"Product Designer"}
+                    {"UX Designer"}
                   </p>
                 </div>
               </div>
@@ -102,7 +102,7 @@ export default function AllContent() {
                 </div>
                 <div className="framer-1s9zonj" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                   <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                    {"8 weeks"}
+                    {"12 weeks"}
                   </p>
                 </div>
               </div>
@@ -116,7 +116,7 @@ export default function AllContent() {
                 </div>
                 <div className="framer-ykellg" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                   <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                    {"2 Enginners, 1 PM, me"}
+                    {"1 UX Designer (me), 1 PM, 1 Dev"}
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function AllContent() {
                 </div>
                 <div className="framer-kxhsp9" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                   <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                    {"Web"}
+                    {"Responsive Web (arkcv.arkanj.tech)"}
                   </p>
                 </div>
               </div>
@@ -141,7 +141,7 @@ export default function AllContent() {
               <div className="ssr-variant">
                 <div className="framer-p2fvhh" data-framer-name="Image">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img loading="eager" width="2400" height="1603" sizes="(min-width: 1200px) min(100vw - 240px, 1800px), (max-width: 809.98px) min(100vw - 72px, 1800px), (min-width: 810px) and (max-width: 1199.98px) min(100vw - 120px, 1800px)" srcSet="/assets/img/def7fcbbf9a18bac.webp 512w, /assets/img/60fbb70e12edcae6.webp 1024w, /assets/img/a38c616b6df6d929.webp 2048w, /assets/img/783ca641ce37d469.webp 2400w" src="/assets/img/783ca641ce37d469.webp" alt="a group of people " style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} fetchPriority="high" />
+                    <img loading="eager" width="2400" height="1350" sizes="(min-width: 1200px) min(100vw - 240px, 1800px), (max-width: 809.98px) min(100vw - 72px, 1800px), (min-width: 810px) and (max-width: 1199.98px) min(100vw - 120px, 1800px)" src="/assets/img/arkcv_cover.jpg" alt="ArkCV Builder AI Resume Platform Dashboard" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} fetchPriority="high" />
                   </div>
                   <div className="framer-53jf28" data-framer-name="Border">
                     <div className="framer-1amt9bm" data-border="true" />
@@ -158,39 +158,36 @@ export default function AllContent() {
                 {"The Real Problem"}
               </h4>
               <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"Therapists at Meridian Health were documenting 3-5 client sessions daily. Each one meant clicking through 12 different screens, re-entering the same information multiple times, and hoping nothing crashed before they finished. People were losing work, getting disoriented, and spending 15-20 minutes per note when they had clients waiting."}
+                {"Final-year students and early-career job seekers spend 30–45 minutes tailoring their resume for each application. Yet over 75% of resumes are discarded by Applicant Tracking Systems (ATS) algorithms before a hiring manager ever sees them. Candidates are left in the dark—submitting dozens of applications and getting automated rejections with zero feedback."}
               </p>
               <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"But here's what made it worse: the interface gave no indication of progress. Therapists would finish what felt like the last screen, only to discover three more hidden steps. The 'back' button sometimes saved your work and sometimes didn't. There was no auto-save, so one accidental click could erase 15 minutes of careful documentation."}
-              </p>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"The feedback we got was pointed:"}
+                {"During our initial discovery interviews with 18 university graduates and job seekers, several key pain points surfaced repeatedly:"}
               </p>
               <ul dir="auto" className="framer-text">
                 <li data-preset-tag="p" className="framer-text framer-styles-preset-163ovsm">
                   <p className="framer-text framer-styles-preset-163ovsm">
-                    {"'I genuinely don't know if I'm done or if there are more screens hiding somewhere.'"}
+                    {"'I apply to 40+ jobs every week, but I have no idea if my resume is even being parsed correctly by their ATS.'"}
                   </p>
                 </li>
                 <li data-preset-tag="p" className="framer-text framer-styles-preset-163ovsm">
                   <p className="framer-text framer-styles-preset-163ovsm">
-                    {"'I've lost the same note three times this week.'"}
+                    {"'Existing AI tools just hallucinate or rewrite everything into robotic buzzwords that get flagged.'"}
                   </p>
                 </li>
                 <li data-preset-tag="p" className="framer-text framer-styles-preset-163ovsm">
                   <p className="framer-text framer-styles-preset-163ovsm">
-                    {"'Why am I entering the session date in four different places?'"}
+                    {"'I don't know which specific skills or keywords in the job description I'm actually missing.'"}
                   </p>
                 </li>
               </ul>
               <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"The underlying issue wasn't just bad UI—it was that nobody had ever looked at the complete journey. Each screen had been built separately over time, and they'd never been stitched into a coherent experience."}
+                {"The core UX challenge was clear: bridge the gap between candidate qualifications and ATS keyword parsing with complete transparency and real-time actionable feedback."}
               </p>
             </div>
             <div className="ssr-variant">
               <div className="framer-2ibhow">
                 <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                  <img loading="eager" width="1500" height="1130" sizes="(min-width: 1200px) min(100vw - 240px, 1800px), (max-width: 809.98px) min(100vw - 72px, 1800px), (min-width: 810px) and (max-width: 1199.98px) min(100vw - 120px, 1800px)" srcSet="/assets/img/b39c318215f24018.webp 512w, /assets/img/2edee690ba7eabb2.webp 1024w, /assets/img/aa65bbc9b3eb0a6d.webp 1500w" src="/assets/img/aa65bbc9b3eb0a6d.webp" alt="Stylish woman in white tennis attire leans" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} />
+                  <img loading="eager" width="1500" height="844" sizes="(min-width: 1200px) min(100vw - 240px, 1800px), (max-width: 809.98px) min(100vw - 72px, 1800px), (min-width: 810px) and (max-width: 1199.98px) min(100vw - 120px, 1800px)" src="/assets/img/arkcv_flow.jpg" alt="ArkCV Builder UX Architecture and 4-Step User Flow" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} />
                 </div>
                 <div className="framer-1lqle49" data-framer-name="Border">
                   <div className="framer-12e5j0b" data-border="true" />
@@ -203,60 +200,40 @@ export default function AllContent() {
             </div>
             <div className="framer-u1mcci" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
               <h4 dir="auto" className="framer-text framer-styles-preset-jjv5nu">
-                {"Finding the Fix"}
+                {"Designing the Solution & UX Architecture"}
               </h4>
               <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"I started by mapping the entire 12-screen flow—not just the UI, but how data moved between screens, where duplication happened, and where people got stuck. After analyzing support tickets and survey responses, three problems stood out:"}
+                {"I structured ArkCV around a 4-step UX architecture that demystifies ATS algorithms and empowers candidates to optimize their profiles with confidence:"}
               </p>
               <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
                 <strong className="framer-text">
-                  {"No sense of progress."}
+                  {"1. Instant Resume Parser & OCR:"}
                 </strong>
-                {" People couldn't tell where they were or what was left."}
+                {" Upload any PDF/DOCX resume and extract structured fields in under 2 seconds."}
               </p>
               <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
                 <strong className="framer-text">
-                  {"No safety net"}
+                  {"2. Real-Time Semantic Matching & ATS Score:"}
                 </strong>
-                {". One wrong click and your work vanished."}
+                {" An intuitive 0–100 radial score gauge that updates dynamically as candidates make edits."}
               </p>
               <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
                 <strong className="framer-text">
-                  {"Clunky information architecture"}
+                  {"3. Split-Screen Keyword Tailoring Editor:"}
                 </strong>
-                {". Screens were organized by database structure, not by how therapists actually think about documentation."}
+                {" Side-by-side view highlighting matched keywords in green, missing keywords in red, and AI suggestions in yellow."}
               </p>
               <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"The clinical directors I interviewed described session notes as 'telling the story of what happened'—context, observations, interventions, next steps. But the interface chopped that story into arbitrary fragments."}
-              </p>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"So I focused on three fixes:"}
-              </p>
-              <ol dir="auto" className="framer-text" style={{ "--max-list-digits": "1" }}>
-                <li data-preset-tag="p" className="framer-text framer-styles-preset-163ovsm">
-                  <p className="framer-text framer-styles-preset-163ovsm">
-                    {"A progress indicator that showed completed sections, current section, and what's remaining—always visible, always clear."}
-                  </p>
-                </li>
-                <li data-preset-tag="p" className="framer-text framer-styles-preset-163ovsm">
-                  <p className="framer-text framer-styles-preset-163ovsm">
-                    {"Auto-save with real feedback. Not just saving in the background, but showing therapists exactly when their work was protected."}
-                  </p>
-                </li>
-                <li data-preset-tag="p" className="framer-text framer-styles-preset-163ovsm">
-                  <p className="framer-text framer-styles-preset-163ovsm">
-                    {"Consolidating screens from 12 to 7 by grouping related information the way therapists actually think about it, not the way the database happened to be structured."}
-                  </p>
-                </li>
-              </ol>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"All achievable within our constraints. No backend overhaul required."}
+                <strong className="framer-text">
+                  {"4. Recruiter Discovery Pipeline:"}
+                </strong>
+                {" Direct profile export and recruiter-ready candidate portfolio cards that highlight verified skill matches."}
               </p>
             </div>
             <div className="ssr-variant">
               <div className="framer-1ssjtfy">
                 <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                  <img loading="eager" width="1500" height="1130" sizes="(min-width: 1200px) min(100vw - 240px, 1800px), (max-width: 809.98px) min(100vw - 72px, 1800px), (min-width: 810px) and (max-width: 1199.98px) min(100vw - 120px, 1800px)" srcSet="/assets/img/9feda9e450145fde.webp 512w, /assets/img/1af15623023b6c21.webp 1024w, /assets/img/5d0b3910b0e35730.webp 1500w" src="/assets/img/5d0b3910b0e35730.webp" alt="A dynamic shot of runners in motion," style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} />
+                  <img loading="eager" width="1500" height="844" sizes="(min-width: 1200px) min(100vw - 240px, 1800px), (max-width: 809.98px) min(100vw - 72px, 1800px), (min-width: 810px) and (max-width: 1199.98px) min(100vw - 120px, 1800px)" src="/assets/img/arkcv_transformation.jpg" alt="ArkCV Transformation Before vs After Comparison" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} />
                 </div>
                 <div className="framer-mls9vv" data-framer-name="Border">
                   <div className="framer-h0t6t8" data-border="true" />
@@ -269,162 +246,67 @@ export default function AllContent() {
             </div>
             <div className="framer-nqiyyb" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
               <h4 dir="auto" className="framer-text framer-styles-preset-jjv5nu">
-                {"What Actually Happened"}
+                {"Usability Testing & Design Iterations"}
               </h4>
               <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"I wireframed the new flow and tested it with our internal clinical expert and customer success team (who talked to therapists daily). That's where I caught my mistakes."}
+                {"Working within a fast 12-week cycle alongside 1 PM and 1 Developer, I led rapid prototype iterations in Figma and conducted 3 rounds of usability testing with 15 target candidates."}
               </p>
               <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"For example: I'd grouped 'treatment goals' and 'session interventions' together because they seemed related. But therapists think about them at totally different points—goals get reviewed before the session, interventions get documented after. Keeping them separate made more sense."}
-              </p>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"The auto-save design also evolved. My first version showed a brief 'Saved' notification that disappeared quickly. Beta testers said they didn't notice it and still felt anxious. I changed it to a persistent 'Last saved [time]' indicator that updated live. Small tweak, massive difference in confidence."}
-              </p>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"We shipped to a small beta group first. The response was immediate—therapists noticed the progress bar and auto-save within minutes. We adjusted some section labels based on feedback, then rolled it out to everyone."}
-              </p>
-            </div>
-            <div className="ssr-variant">
-              <div className="framer-q02hip">
-                <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                  <img loading="eager" width="1500" height="1000" sizes="(min-width: 1200px) min(100vw - 240px, 1800px), (max-width: 809.98px) min(100vw - 72px, 1800px), (min-width: 810px) and (max-width: 1199.98px) min(100vw - 120px, 1800px)" srcSet="/assets/img/48ba10c8852a092f.webp 512w, /assets/img/e306335c7829978d.webp 1024w, /assets/img/677ce604132763ce.webp 1500w" src="/assets/img/677ce604132763ce.webp" alt="Intense gaze of a young woman" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} />
-                </div>
-                <div className="framer-dkpmtr" data-framer-name="Border">
-                  <div className="framer-n6hf4n" data-border="true" />
-                  <div className="framer-1y6xdy1" data-border="true" />
-                  <div className="framer-4kgt72" data-border="true" />
-                  <div className="framer-14ljufp" data-border="true" />
-                  <div className="framer-1sdexp1" data-border="true" data-framer-name="border" />
-                </div>
-              </div>
-            </div>
-            <div className="framer-1qjcz2f" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-              <h4 dir="auto" className="framer-text framer-styles-preset-jjv5nu">
-                {"What Changed"}
-              </h4>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"Documentation time dropped from 15-20 minutes to 7-10 minutes. Support tickets about lost work decreased by 78% in the first month. In a follow-up survey, 89% of therapists said the new system was easier or much easier than before."}
-              </p>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"But my favorite feedback was qualitative"}
+                {"Key usability discoveries that shaped the final product:"}
               </p>
               <ul dir="auto" className="framer-text">
                 <li data-preset-tag="p" className="framer-text framer-styles-preset-163ovsm">
                   <p className="framer-text framer-styles-preset-163ovsm">
-                    {"'This is exactly what I needed—I can finally see where I am.'"}
+                    {"Replaced full-text AI replacement with granular bullet-point suggestions, preserving the candidate's authentic voice."}
                   </p>
                 </li>
                 <li data-preset-tag="p" className="framer-text framer-styles-preset-163ovsm">
                   <p className="framer-text framer-styles-preset-163ovsm">
-                    {"'I haven't lost a note since the update. Game changer.'"}
+                    {"Added 'Keyword Gap Breakdown' so users understand exactly why their score changed from 68% to 94%."}
                   </p>
                 </li>
                 <li data-preset-tag="p" className="framer-text framer-styles-preset-163ovsm">
                   <p className="framer-text framer-styles-preset-163ovsm">
-                    {"'It actually feels like someone asked us what we needed.'"}
+                    {"Designed a unified Dark Mode UI design system with high-contrast accessibility tokens for long editing sessions."}
                   </p>
                 </li>
               </ul>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"Zero people requested to go back to the old version, which felt like the real success metric."}
-              </p>
             </div>
-            <div className="ssr-variant">
-              <div className="framer-66kkm2">
-                <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                  <img decoding="async" loading="lazy" width="1199" height="514" sizes="(min-width: 1200px) min(100vw - 240px, 1800px), (max-width: 809.98px) min(100vw - 72px, 1800px), (min-width: 810px) and (max-width: 1199.98px) min(100vw - 120px, 1800px)" srcSet="/assets/img/89c2c51f97bdf1db.webp 512w, /assets/img/f8df50d11e8fc3f5.webp 1024w, /assets/img/48a7b2d3c9ccbc72.webp 1199w" src="/assets/img/48a7b2d3c9ccbc72.webp" alt="A person in winter gear with ski goggles" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} />
-                </div>
-                <div className="framer-1mj75e0" data-framer-name="Border">
-                  <div className="framer-1anlbbr" data-border="true" />
-                  <div className="framer-1qcvaf8" data-border="true" />
-                  <div className="framer-17keimi" data-border="true" />
-                  <div className="framer-18gxeyw" data-border="true" />
-                  <div className="framer-1qhybvh" data-border="true" data-framer-name="border" />
-                </div>
-              </div>
+            <div className="framer-1qjcz2f" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
+              <h4 dir="auto" className="framer-text framer-styles-preset-jjv5nu">
+                {"Impact & Shipped Results"}
+              </h4>
+              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
+                {"The shipped product on arkcv.arkanj.tech achieved standout engagement metrics across our launch cohort:"}
+              </p>
+              <ul dir="auto" className="framer-text">
+                <li data-preset-tag="p" className="framer-text framer-styles-preset-163ovsm">
+                  <p className="framer-text framer-styles-preset-163ovsm">
+                    <strong className="framer-text">{"75% Time Reduction:"}</strong>{" Average resume tailoring time plummeted from 45 minutes to under 8 minutes."}
+                  </p>
+                </li>
+                <li data-preset-tag="p" className="framer-text framer-styles-preset-163ovsm">
+                  <p className="framer-text framer-styles-preset-163ovsm">
+                    <strong className="framer-text">{"+45% Interview Callbacks:"}</strong>{" Candidates using optimized ArkCV resumes reported a 45% increase in recruiter responses."}
+                  </p>
+                </li>
+                <li data-preset-tag="p" className="framer-text framer-styles-preset-163ovsm">
+                  <p className="framer-text framer-styles-preset-163ovsm">
+                    <strong className="framer-text">{"85% Confidence Score:"}</strong>{" 85% of job seekers reported feeling significantly more confident about passing ATS filters."}
+                  </p>
+                </li>
+              </ul>
             </div>
             <div className="framer-rt4ik2" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
               <h4 dir="auto" className="framer-text framer-styles-preset-jjv5nu">
-                {"What I Had to Work With"}
+                {"Key Takeaways"}
               </h4>
               <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                <strong className="framer-text">
-                  {"No direct access to therapists"}
-                </strong>
-                {". HIPAA compliance and client confidentiality meant I couldn't shadow sessions or run live usability tests. I had user surveys, interviews with clinical directors, and months of support tickets. Not ideal, but enough to identify patterns."}
+                <strong className="framer-text">{"Transparency builds user trust in AI."}</strong>{" Showing users exactly how the ATS algorithm evaluates their resume made the AI feel like a collaborative partner rather than an opaque black box."}
               </p>
               <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                <strong className="framer-text">
-                  {"A rigid design system."}
-                </strong>
-                {" The platform used a third-party component library we couldn't modify. Custom solutions weren't an option—I had to work within existing patterns."}
+                <strong className="framer-text">{"Early engineering collaboration drives velocity."}</strong>{" Designing components alongside developers allowed us to ship a full web product in just 12 weeks while maintaining high UX polish."}
               </p>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                <strong className="framer-text">
-                  {"An 8-week deadline."}
-                </strong>
-                {" Leadership wanted improvements shipped fast. A complete rebuild wasn't realistic."}
-              </p>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"These constraints shaped everything. Instead of reimagining the whole system, I focused on the changes that would have the biggest impact with the least structural upheaval."}
-              </p>
-            </div>
-            <div className="ssr-variant">
-              <div className="framer-4w8ho6">
-                <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                  <img decoding="async" loading="lazy" width="1500" height="1130" sizes="(min-width: 1200px) min(100vw - 240px, 1800px), (max-width: 809.98px) min(100vw - 72px, 1800px), (min-width: 810px) and (max-width: 1199.98px) min(100vw - 120px, 1800px)" srcSet="/assets/img/35e0ea93ac61d737.webp 512w, /assets/img/e3b0295b74863f83.webp 1024w, /assets/img/8df990d46746ce20.webp 1500w" src="/assets/img/8df990d46746ce20.webp" alt="Close-up of a person in a black motorcycle " style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} />
-                </div>
-                <div className="framer-b7wxf6" data-framer-name="Border">
-                  <div className="framer-1dafgvx" data-border="true" />
-                  <div className="framer-bkvisw" data-border="true" />
-                  <div className="framer-ud73b0" data-border="true" />
-                  <div className="framer-1vtzkva" data-border="true" />
-                  <div className="framer-qxz13" data-border="true" data-framer-name="border" />
-                </div>
-              </div>
-            </div>
-            <div className="framer-15wylng" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-              <h4 dir="auto" className="framer-text framer-styles-preset-jjv5nu">
-                {"What I'd Do Differently"}
-              </h4>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"I'd push harder for access to real users earlier. Working through intermediaries gave me valuable insights, but I missed nuances that only come from watching someone actually struggle with an interface. Even one shadowing session would have accelerated my understanding."}
-              </p>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"I'd also document existing problems more systematically. I relied heavily on anecdotal feedback and support tickets, which worked—but a proper heuristic evaluation would have given me clearer evidence when advocating for changes."}
-              </p>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                <br className="framer-text trailing-break" />
-              </p>
-              <h4 dir="auto" className="framer-text framer-styles-preset-jjv5nu">
-                {"What I Learned"}
-              </h4>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"Strategic improvements beat perfect overhauls. I wanted to rebuild everything into a sleek single-page experience. But given our constraints, that wasn't realistic. The three focused changes we made—progress visibility, auto-save, better IA—delivered serious value without requiring a ground-up rebuild."}
-              </p>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"Mental models beat logic. What made sense to me (grouping related data) didn't always match how therapists thought. Validating assumptions with people who actually do the work saved me from shipping something technically correct but functionally wrong."}
-              </p>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"Invisible design builds trust. The 'Last saved' indicator wasn't technically necessary—the system was auto-saving either way. But it transformed how people felt about the experience. Sometimes the most important design work is making invisible processes visible."}
-              </p>
-              <p dir="auto" className="framer-text framer-styles-preset-163ovsm">
-                {"This is sample content for portfolio development purposes. Replace with your actual case studies when ready."}
-              </p>
-            </div>
-            <div className="ssr-variant">
-              <div className="framer-19s2zb3">
-                <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                  <img decoding="async" loading="lazy" width="1500" height="1050" sizes="(min-width: 1200px) min(100vw - 240px, 1800px), (max-width: 809.98px) min(100vw - 72px, 1800px), (min-width: 810px) and (max-width: 1199.98px) min(100vw - 120px, 1800px)" srcSet="/assets/img/92460301959803b9.webp 512w, /assets/img/e21a228c0253882a.webp 1024w, /assets/img/3b93dba92c7fcaa4.webp 1500w" src="/assets/img/3b93dba92c7fcaa4.webp" alt="A cyclist in a black helmet and blue jersey" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} />
-                </div>
-                <div className="framer-a01whm" data-framer-name="Border">
-                  <div className="framer-a660iw" data-border="true" />
-                  <div className="framer-1bjucnn" data-border="true" />
-                  <div className="framer-1du3cqy" data-border="true" />
-                  <div className="framer-vyodw" data-border="true" />
-                  <div className="framer-181uoet" data-border="true" data-framer-name="border" />
-                </div>
-              </div>
             </div>
           </div>
         </div>

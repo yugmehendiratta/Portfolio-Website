@@ -36,7 +36,7 @@ export default function AllContent() {
                                   <div className="framer-1rxdn66" data-framer-name="Circle" style={{ backgroundColor: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", borderBottomLeftRadius: "8px", borderBottomRightRadius: "8px", borderTopLeftRadius: "8px", borderTopRightRadius: "8px" }} />
                                   <div className="framer-pvu25c" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", transform: "none" }}>
                                     <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-alignment": "left", "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                      {"Mar 19, 2026"}
+                                      {"May – July 2026"}
                                     </p>
                                   </div>
                                 </div>
@@ -47,7 +47,7 @@ export default function AllContent() {
                               <div className="framer-n2jnlg" data-framer-name="Image">
                                 <div className="framer-12wg0pg" data-framer-name="Image" style={{ transform: "none" }}>
                                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                                    <img loading="eager" width="2400" height="1603" sizes="(min-width: 1200px) max(max(max((min(100vw - 200px, 1800px) - 56px) / 2, 50px), 1px) - 32px, 1px), (min-width: 810px) and (max-width: 1199.98px) max(max(max((min(100vw - 80px, 1800px) - 32px) / 2, 50px), 1px) - 16px, 1px), (max-width: 809.98px) max(max(max(min(100vw - 32px, 1800px), 50px), 1px) - 16px, 1px)" srcSet="/assets/img/def7fcbbf9a18bac.webp 512w, /assets/img/60fbb70e12edcae6.webp 1024w, /assets/img/a38c616b6df6d929.webp 2048w, /assets/img/783ca641ce37d469.webp 2400w" src="/assets/img/783ca641ce37d469.webp" alt="a group of people " style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} fetchPriority="high" />
+                                    <img loading="eager" width="2400" height="1350" sizes="(min-width: 1200px) max(max(max((min(100vw - 200px, 1800px) - 56px) / 2, 50px), 1px) - 32px, 1px), (min-width: 810px) and (max-width: 1199.98px) max(max(max((min(100vw - 80px, 1800px) - 32px) / 2, 50px), 1px) - 16px, 1px), (max-width: 809.98px) max(max(max(min(100vw - 32px, 1800px), 50px), 1px) - 16px, 1px)" src="/assets/img/arkcv_cover.jpg" alt="ArkCV Builder AI Resume Platform" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} fetchPriority="high" />
                                   </div>
                                 </div>
                               </div>
@@ -56,12 +56,12 @@ export default function AllContent() {
                           <div className="framer-1ccge0l" data-framer-name="Text">
                             <div className="framer-1fgirm3" data-framer-component-type="RichTextContainer" style={{ "--extracted-1eung3n": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
                               <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-alignment": "center", "--framer-text-color": "var(--extracted-1eung3n, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                {"Meridian Health"}
+                                {"ArkCV Builder"}
                               </h4>
                             </div>
                             <div className="framer-1iryodz" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", transform: "none" }}>
                               <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-alignment": "center", "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                {"When therapists spend less time clicking, they have more time for patients."}
+                                {"AI-powered resume and career platform that helps job seekers beat ATS filters and get discovered by recruiters."}
                               </p>
                             </div>
                           </div>
@@ -80,7 +80,7 @@ export default function AllContent() {
                                   <div className="framer-1rxdn66" data-framer-name="Circle" style={{ backgroundColor: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", borderBottomLeftRadius: "8px", borderBottomRightRadius: "8px", borderTopLeftRadius: "8px", borderTopRightRadius: "8px" }} />
                                   <div className="framer-pvu25c" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", transform: "none" }}>
                                     <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-alignment": "left", "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                      {"Mar 19, 2026"}
+                                      {"May – July 2026"}
                                     </p>
                                   </div>
                                 </div>
@@ -91,7 +91,7 @@ export default function AllContent() {
                               <div className="framer-n2jnlg" data-framer-name="Image">
                                 <div className="framer-12wg0pg" data-framer-name="Image" style={{ transform: "none" }}>
                                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                                    <img loading="eager" width="2400" height="1603" sizes="(min-width: 1200px) max(max(max((min(100vw - 200px, 1800px) - 56px) / 2, 50px), 1px) - 32px, 1px), (min-width: 810px) and (max-width: 1199.98px) max(max(max((min(100vw - 80px, 1800px) - 32px) / 2, 50px), 1px) - 16px, 1px), (max-width: 809.98px) max(max(max(min(100vw - 32px, 1800px), 50px), 1px) - 16px, 1px)" srcSet="/assets/img/def7fcbbf9a18bac.webp 512w, /assets/img/60fbb70e12edcae6.webp 1024w, /assets/img/a38c616b6df6d929.webp 2048w, /assets/img/783ca641ce37d469.webp 2400w" src="/assets/img/783ca641ce37d469.webp" alt="a group of people " style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} />
+                                    <img loading="eager" width="2400" height="1350" sizes="(min-width: 1200px) max(max(max((min(100vw - 200px, 1800px) - 56px) / 2, 50px), 1px) - 32px, 1px), (min-width: 810px) and (max-width: 1199.98px) max(max(max((min(100vw - 80px, 1800px) - 32px) / 2, 50px), 1px) - 16px, 1px), (max-width: 809.98px) max(max(max(min(100vw - 32px, 1800px), 50px), 1px) - 16px, 1px)" src="/assets/img/arkcv_cover.jpg" alt="ArkCV Builder AI Resume Platform" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} />
                                   </div>
                                 </div>
                               </div>
@@ -100,12 +100,12 @@ export default function AllContent() {
                           <div className="framer-1ccge0l" data-framer-name="Text">
                             <div className="framer-1fgirm3" data-framer-component-type="RichTextContainer" style={{ "--extracted-1eung3n": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
                               <h4 className="framer-text framer-styles-preset-jjv5nu" data-styles-preset="TI_CAjGBM" dir="auto" style={{ "--framer-text-alignment": "center", "--framer-text-color": "var(--extracted-1eung3n, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                {"Meridian Health"}
+                                {"ArkCV Builder"}
                               </h4>
                             </div>
                             <div className="framer-1iryodz" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", transform: "none" }}>
                               <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-alignment": "center", "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                                {"When therapists spend less time clicking, they have more time for patients."}
+                                {"AI-powered resume and career platform that helps job seekers beat ATS filters and get discovered by recruiters."}
                               </p>
                             </div>
                           </div>

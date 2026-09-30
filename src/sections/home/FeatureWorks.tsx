@@ -116,7 +116,7 @@ export default function FeatureWorks() {
                                     <div className="framer-1tdrzuz" style={{ backgroundColor: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", borderBottomLeftRadius: "8px", borderBottomRightRadius: "8px", borderTopLeftRadius: "8px", borderTopRightRadius: "8px" }} />
                                     <div className="framer-jg01a3" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--variable-reference-JDs6Ey0E7-vqnJudyFq)", "--variable-reference-JDs6Ey0E7-vqnJudyFq": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", transform: "none" }}>
                                       <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-alignment": "left", "--framer-text-color": "var(--extracted-r6o4lv, var(--variable-reference-JDs6Ey0E7-vqnJudyFq))" }}>
-                                        {"Mar 19, 2026"}
+                                        {"May – July 2026"}
                                       </p>
                                     </div>
                                   </div>
@@ -437,7 +437,7 @@ export default function FeatureWorks() {
                                   <div className="framer-evvvbg" data-framer-name="Content" style={{ backgroundColor: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
                                     <div className="framer-s1tccs" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--variable-reference-Ha3WZBmxl-jUfJHCvjJ)", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", "--variable-reference-Ha3WZBmxl-jUfJHCvjJ": "var(--token-1892785e-8581-4826-b411-015017430ad3, rgb(0, 94, 217))", transform: "none" }}>
                                       <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--variable-reference-Ha3WZBmxl-jUfJHCvjJ))" }}>
-                                        {"Healthcare"}
+                                        {"UX Case Study"}
                                       </p>
                                     </div>
                                   </div>
@@ -452,7 +452,7 @@ export default function FeatureWorks() {
                                   <div className="framer-evvvbg" data-framer-name="Content" style={{ backgroundColor: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
                                     <div className="framer-s1tccs" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--variable-reference-Ha3WZBmxl-jUfJHCvjJ)", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", "--variable-reference-Ha3WZBmxl-jUfJHCvjJ": "var(--token-1892785e-8581-4826-b411-015017430ad3, rgb(0, 94, 217))", transform: "none" }}>
                                       <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--variable-reference-Ha3WZBmxl-jUfJHCvjJ))" }}>
-                                        {"Workflow Design"}
+                                        {"AI Product"}
                                       </p>
                                     </div>
                                   </div>
@@ -511,7 +511,7 @@ export default function FeatureWorks() {
                                     <div className="framer-1tdrzuz" style={{ backgroundColor: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", borderBottomLeftRadius: "8px", borderBottomRightRadius: "8px", borderTopLeftRadius: "8px", borderTopRightRadius: "8px" }} />
                                     <div className="framer-jg01a3" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--variable-reference-JDs6Ey0E7-vqnJudyFq)", "--variable-reference-JDs6Ey0E7-vqnJudyFq": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", transform: "none" }}>
                                       <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-alignment": "left", "--framer-text-color": "var(--extracted-r6o4lv, var(--variable-reference-JDs6Ey0E7-vqnJudyFq))" }}>
-                                        {"Mar 19, 2026"}
+                                        {"May – July 2026"}
                                       </p>
                                     </div>
                                   </div>
@@ -832,7 +832,7 @@ export default function FeatureWorks() {
                                   <div className="framer-evvvbg" data-framer-name="Content" style={{ backgroundColor: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
                                     <div className="framer-s1tccs" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--variable-reference-Ha3WZBmxl-jUfJHCvjJ)", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", "--variable-reference-Ha3WZBmxl-jUfJHCvjJ": "var(--token-1892785e-8581-4826-b411-015017430ad3, rgb(0, 94, 217))", transform: "none" }}>
                                       <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--variable-reference-Ha3WZBmxl-jUfJHCvjJ))" }}>
-                                        {"Healthcare"}
+                                        {"UX Case Study"}
                                       </p>
                                     </div>
                                   </div>
@@ -847,7 +847,7 @@ export default function FeatureWorks() {
                                   <div className="framer-evvvbg" data-framer-name="Content" style={{ backgroundColor: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
                                     <div className="framer-s1tccs" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--variable-reference-Ha3WZBmxl-jUfJHCvjJ)", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", "--variable-reference-Ha3WZBmxl-jUfJHCvjJ": "var(--token-1892785e-8581-4826-b411-015017430ad3, rgb(0, 94, 217))", transform: "none" }}>
                                       <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--variable-reference-Ha3WZBmxl-jUfJHCvjJ))" }}>
-                                        {"Workflow Design"}
+                                        {"AI Product"}
                                       </p>
                                     </div>
                                   </div>
@@ -906,7 +906,7 @@ export default function FeatureWorks() {
                                     <div className="framer-1tdrzuz" style={{ backgroundColor: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", borderBottomLeftRadius: "8px", borderBottomRightRadius: "8px", borderTopLeftRadius: "8px", borderTopRightRadius: "8px" }} />
                                     <div className="framer-jg01a3" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--variable-reference-JDs6Ey0E7-vqnJudyFq)", "--variable-reference-JDs6Ey0E7-vqnJudyFq": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", transform: "none" }}>
                                       <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-alignment": "left", "--framer-text-color": "var(--extracted-r6o4lv, var(--variable-reference-JDs6Ey0E7-vqnJudyFq))" }}>
-                                        {"Mar 19, 2026"}
+                                        {"May – July 2026"}
                                       </p>
                                     </div>
                                   </div>
@@ -1227,7 +1227,7 @@ export default function FeatureWorks() {
                                   <div className="framer-evvvbg" data-framer-name="Content" style={{ backgroundColor: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
                                     <div className="framer-s1tccs" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--variable-reference-Ha3WZBmxl-jUfJHCvjJ)", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", "--variable-reference-Ha3WZBmxl-jUfJHCvjJ": "var(--token-1892785e-8581-4826-b411-015017430ad3, rgb(0, 94, 217))", transform: "none" }}>
                                       <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--variable-reference-Ha3WZBmxl-jUfJHCvjJ))" }}>
-                                        {"Healthcare"}
+                                        {"UX Case Study"}
                                       </p>
                                     </div>
                                   </div>
@@ -1242,7 +1242,7 @@ export default function FeatureWorks() {
                                   <div className="framer-evvvbg" data-framer-name="Content" style={{ backgroundColor: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
                                     <div className="framer-s1tccs" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--variable-reference-Ha3WZBmxl-jUfJHCvjJ)", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", "--variable-reference-Ha3WZBmxl-jUfJHCvjJ": "var(--token-1892785e-8581-4826-b411-015017430ad3, rgb(0, 94, 217))", transform: "none" }}>
                                       <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--variable-reference-Ha3WZBmxl-jUfJHCvjJ))" }}>
-                                        {"Workflow Design"}
+                                        {"AI Product"}
                                       </p>
                                     </div>
                                   </div>
@@ -3473,7 +3473,7 @@ export default function FeatureWorks() {
                                     <div className="framer-1tdrzuz" style={{ backgroundColor: "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))", borderBottomLeftRadius: "8px", borderBottomRightRadius: "8px", borderTopLeftRadius: "8px", borderTopRightRadius: "8px" }} />
                                     <div className="framer-jg01a3" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--variable-reference-JDs6Ey0E7-vqnJudyFq)", "--variable-reference-JDs6Ey0E7-vqnJudyFq": "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))", transform: "none" }}>
                                       <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-alignment": "left", "--framer-text-color": "var(--extracted-r6o4lv, var(--variable-reference-JDs6Ey0E7-vqnJudyFq))" }}>
-                                        {"Mar 19, 2026"}
+                                        {"May – July 2026"}
                                       </p>
                                     </div>
                                   </div>
@@ -3841,7 +3841,7 @@ export default function FeatureWorks() {
                                     <div className="framer-1tdrzuz" style={{ backgroundColor: "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))", borderBottomLeftRadius: "8px", borderBottomRightRadius: "8px", borderTopLeftRadius: "8px", borderTopRightRadius: "8px" }} />
                                     <div className="framer-jg01a3" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--variable-reference-JDs6Ey0E7-vqnJudyFq)", "--variable-reference-JDs6Ey0E7-vqnJudyFq": "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))", transform: "none" }}>
                                       <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-alignment": "left", "--framer-text-color": "var(--extracted-r6o4lv, var(--variable-reference-JDs6Ey0E7-vqnJudyFq))" }}>
-                                        {"Mar 19, 2026"}
+                                        {"May – July 2026"}
                                       </p>
                                     </div>
                                   </div>
@@ -4209,7 +4209,7 @@ export default function FeatureWorks() {
                                     <div className="framer-1tdrzuz" style={{ backgroundColor: "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))", borderBottomLeftRadius: "8px", borderBottomRightRadius: "8px", borderTopLeftRadius: "8px", borderTopRightRadius: "8px" }} />
                                     <div className="framer-jg01a3" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--variable-reference-JDs6Ey0E7-vqnJudyFq)", "--variable-reference-JDs6Ey0E7-vqnJudyFq": "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))", transform: "none" }}>
                                       <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-alignment": "left", "--framer-text-color": "var(--extracted-r6o4lv, var(--variable-reference-JDs6Ey0E7-vqnJudyFq))" }}>
-                                        {"Mar 19, 2026"}
+                                        {"May – July 2026"}
                                       </p>
                                     </div>
                                   </div>
