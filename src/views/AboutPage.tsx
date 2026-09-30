@@ -35,7 +35,7 @@ export default function AboutPage() {
                 </div>
               </Suspense>
             </div>
-            <style data-framer-html-style="" dangerouslySetInnerHTML={{ __html: "html body { background: var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255)); }" }} />
+            <style data-framer-html-style="" dangerouslySetInnerHTML={{ __html: "html body { background: var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255)); } html { scroll-behavior: smooth; } .framer-NrOiv section.framer-1q34n9d { scroll-margin-top: 120px; } .framer-NrOiv #awards .framer-1ql5gwc, .framer-NrOiv #awards .framer-1ql5gwc[data-border='true']::after, .framer-NrOiv #awards .framer-6aawbq div, .framer-NrOiv #awards .framer-6aawbq div[data-border='true']::after { --border-color: #8b5cf6 !important; border-color: #8b5cf6 !important; } .framer-NrOiv #awards .framer-1sty39j, .framer-NrOiv #awards div[data-framer-name='Cursor Tag'], .framer-NrOiv #awards .framer-awards-cursor { background-color: #8b5cf6 !important; --border-color: #111212 !important; } .framer-NrOiv #awards .framer-awards-tag, .framer-NrOiv #awards .framer-13tnzw6 > div { background-color: #8b5cf6 !important; align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: clip; padding: 4px; position: relative; width: min-content; }" }} />
             <div data-framer-root="" className="framer-NrOiv framer-9yfa1 framer-NkuHG framer-SwHTo framer-erhBl framer-0p8ff framer-tfqf9 framer-1fzvxue" style={{ minHeight: "100vh", width: "auto", display: "contents" }}>
               <div className="framer-1tvkrgo-container" data-framer-name="Smooth Scroll" name="Smooth Scroll">
                 <Suspense fallback={null}>
@@ -102,6 +102,10 @@ export default function AboutPage() {
         {"\n"}
         <svg viewBox="0 0 28 26" overflow="visible" id="svg52684662_392">
           <path d="M 0 0 L 12 26 L 14 13 L 28 9.5 Z" fill={"var(--token-1892785e-8581-4826-b411-015017430ad3, rgb(54, 197, 240)) /* {\"name\":\"Primary\"} */"} strokeWidth="2" stroke="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
+        </svg>
+        {"\n"}
+        <svg viewBox="0 0 28 26" overflow="visible" id="svg_awards_cursor">
+          <path d="M 0 0 L 12 26 L 14 13 L 28 9.5 Z" fill="#8b5cf6" strokeWidth="2" stroke="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
         </svg>
         {"\n"}
       </div>

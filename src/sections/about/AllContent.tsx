@@ -503,24 +503,24 @@ export default function AllContent() {
               </section>
               <section className="framer-1q34n9d" data-framer-name="Awards" id="awards">
                 <div className="framer-13tnzw6" data-framer-name="Tag">
-                  <div className="framer-nc06ra" data-framer-name="Text">
+                  <div className="framer-awards-tag" data-framer-name="Text">
                     <div className="framer-tzv26k" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-                      <h2 className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
+                      <h2 className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-color": "rgb(255, 255, 255)" }}>
                         {"Awards & Achievements"}
                       </h2>
                     </div>
                   </div>
                 </div>
-                <div className="framer-1ql5gwc" data-border="true" data-framer-name="Content">
+                <div className="framer-1ql5gwc framer-awards-card" data-border="true" data-framer-name="Content">
                   <div className="framer-6aawbq" data-framer-name="Border">
-                    <div className="framer-3cixhw" data-border="true" data-framer-name="Rectangle" />
-                    <div className="framer-iw10lq" data-border="true" data-framer-name="Rectangle" />
-                    <div className="framer-11qzkjj" data-border="true" data-framer-name="Rectangle" />
-                    <div className="framer-cis23f" data-border="true" data-framer-name="Rectangle" />
+                    <div className="framer-3cixhw framer-awards-corner" data-border="true" data-framer-name="Rectangle" />
+                    <div className="framer-iw10lq framer-awards-corner" data-border="true" data-framer-name="Rectangle" />
+                    <div className="framer-11qzkjj framer-awards-corner" data-border="true" data-framer-name="Rectangle" />
+                    <div className="framer-cis23f framer-awards-corner" data-border="true" data-framer-name="Rectangle" />
                   </div>
                   <div className="framer-6p0jh5" data-framer-name="Comment" style={{ gap: "20px" }}>
                     <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", width: "100%" }}>
-                      <div style={{ display: "inline-flex", alignItems: "center", gap: "6px", backgroundColor: "var(--token-cd9da077-16e0-46f3-9a80-6bf4c2a79928, rgb(245, 221, 161))", padding: "4px 10px", borderRadius: "4px", border: "2px solid var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
+                      <div style={{ display: "inline-flex", alignItems: "center", gap: "6px", backgroundColor: "#fef08a", padding: "4px 10px", borderRadius: "4px", border: "2px solid var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
                         <span style={{ fontSize: "14px", lineHeight: "1" }}>🏆</span>
                         <span style={{ fontSize: "12px", fontWeight: 700, letterSpacing: "0.04em", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>Q2 2026</span>
                       </div>
@@ -569,7 +569,7 @@ export default function AllContent() {
                       </a>
                     </div>
                   </div>
-                  <div className="framer-1sty39j hidden-1hh7fxx" data-border="true" data-framer-name="Cursor Tag" style={{ opacity: "1", transform: "translateY(-50%) rotate(-11deg)" }}>
+                  <div className="framer-1sty39j framer-awards-cursor hidden-1hh7fxx" data-border="true" data-framer-name="Cursor Tag" style={{ opacity: "1", transform: "translateY(-50%) rotate(-11deg)" }}>
                     <div className="framer-161e4g2-container">
                       <Suspense fallback={null}>
                         <div style={{ width: "0px", height: "0px" }} />
@@ -578,12 +578,12 @@ export default function AllContent() {
                     <div data-framer-component-type="SVG" data-framer-name="Cursor" parentsize="0" _constraints="[object Object]" rotation="0" shadows="" className="framer-1mrct6g" aria-hidden="true" style={{ imageRendering: "pixelated", flexShrink: "0" }}>
                       <div className="svgContainer" style={{ width: "100%", height: "100%", aspectRatio: "inherit" }}>
                         <svg style={{ width: "100%", height: "100%", overflow: "visible" }}>
-                          <use href="#svg52684662_392" />
+                          <use href="#svg_awards_cursor" />
                         </svg>
                       </div>
                     </div>
                     <div className="framer-n52824" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-                      <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
+                      <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "rgb(255, 255, 255)" }}>
                         {"Awards"}
                       </p>
                     </div>
