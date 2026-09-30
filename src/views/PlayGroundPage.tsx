@@ -45,51 +45,51 @@ export default function PlayGroundPage() {
                   <div style={{ width: "100%", height: "100vh", overflow: "hidden", position: "relative", cursor: "grab", userSelect: "none", WebkitUserSelect: "none", touchAction: "none" }}>
                     <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" }}>
                       <div data-image="true" style={{ position: "absolute", width: "300px", height: "300px", cursor: "pointer", transformOrigin: "center center", willChange: "transform" }}>
-                        <img src="/assets/img/9034d11b63cd2af8.webp" draggable="false" style={{ width: "100%", height: "100%", objectFit: "cover", userSelect: "none", pointerEvents: "none" }} loading="eager" alt="" />
-                        <div style={{ position: "absolute", padding: "8px 12px", background: "var(--token-cd9da077-16e0-46f3-9a80-6bf4c2a79928, rgb(245, 221, 161))", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", fontSize: "32px", fontFamily: "Just me again down here", whiteSpace: "nowrap", pointerEvents: "none", bottom: "calc(100% + -30px)", left: "50%", transform: "translate(calc(-50% + -55.54838px), 0)" }}>
-                          {"nothing big, still feels nice"}
+                        <img src="/assets/img/playground_spotify.jpg" draggable="false" style={{ width: "100%", height: "100%", objectFit: "cover", userSelect: "none", pointerEvents: "none", borderRadius: "4px" }} loading="eager" alt="Spotify Music" />
+                        <div style={{ position: "absolute", padding: "8px 12px", background: "var(--token-3b25897c-a78c-4fb0-9a93-831975a769c1, rgb(161, 223, 197))", color: "rgb(0, 0, 0)", fontSize: "32px", fontFamily: "Just me again down here", whiteSpace: "nowrap", pointerEvents: "none", bottom: "calc(100% + -30px)", left: "50%", transform: "translate(calc(-50% + -55.54838px), 0)" }}>
+                          {"on repeat 🎧"}
                         </div>
                       </div>
-                      <div data-image="true" style={{ position: "absolute", width: "250px", height: "250px", cursor: "pointer", transformOrigin: "center center", willChange: "transform" }}>
-                        <img src="/assets/img/5980c56c8374aeb5.webp" draggable="false" style={{ width: "100%", height: "100%", objectFit: "cover", userSelect: "none", pointerEvents: "none" }} loading="lazy" decoding="async" alt="" />
-                        <div style={{ position: "absolute", padding: "8px 12px", background: "var(--token-a40bc7b7-fed8-4930-b9f7-5dc39bc097a2, rgb(164, 229, 248))", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", fontSize: "32px", fontFamily: "Just me again down here", whiteSpace: "nowrap", pointerEvents: "none", top: "calc(100% + -20px)", left: "50%", transform: "translate(calc(-50% + -49.2109px), 0)" }}>
-                          {"Brain’s messy, but it’s okay"}
+                      <div data-image="true" style={{ position: "absolute", width: "280px", height: "280px", cursor: "pointer", transformOrigin: "center center", willChange: "transform" }}>
+                        <img src="/assets/img/playground_notepad.jpg" draggable="false" style={{ width: "100%", height: "100%", objectFit: "cover", userSelect: "none", pointerEvents: "none", borderRadius: "4px" }} loading="lazy" decoding="async" alt="Checklist Notepad" />
+                        <div style={{ position: "absolute", padding: "8px 12px", background: "var(--token-cd9da077-16e0-46f3-9a80-6bf4c2a79928, rgb(245, 221, 161))", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", fontSize: "32px", fontFamily: "Just me again down here", whiteSpace: "nowrap", pointerEvents: "none", top: "calc(100% + -20px)", left: "50%", transform: "translate(calc(-50% + -49.2109px), 0)" }}>
+                          {"current wip & research 📌"}
                         </div>
                       </div>
-                      <div data-image="true" style={{ position: "absolute", width: "150px", height: "150px", cursor: "grab", transformOrigin: "center center", willChange: "transform" }}>
-                        <img src="/assets/img/fe10d615007d0594.webp" draggable="false" style={{ width: "100%", height: "100%", objectFit: "cover", userSelect: "none", pointerEvents: "none" }} loading="lazy" decoding="async" alt="" />
-                        <div style={{ position: "absolute", padding: "8px 12px", background: "var(--token-3b25897c-a78c-4fb0-9a93-831975a769c1, rgb(161, 223, 197))", color: "rgb(0, 0, 0)", fontSize: "32px", fontFamily: "Just me again down here", whiteSpace: "nowrap", pointerEvents: "none", left: "calc(100% + -20px)", top: "50%", transform: "translate(0, calc(-50% + -29.3725px))" }}>
-                          {"Good weather"}
+                      <div data-image="true" style={{ position: "absolute", width: "260px", height: "260px", cursor: "grab", transformOrigin: "center center", willChange: "transform" }}>
+                        <img src="/assets/img/playground_sunset.jpg" draggable="false" style={{ width: "100%", height: "100%", objectFit: "cover", userSelect: "none", pointerEvents: "none", borderRadius: "4px" }} loading="lazy" decoding="async" alt="Sunset Photography" />
+                        <div style={{ position: "absolute", padding: "8px 12px", background: "var(--token-221f5458-30ad-42f0-b005-7c3d9fe30e8d, rgb(250, 190, 209))", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", fontSize: "32px", fontFamily: "Just me again down here", whiteSpace: "nowrap", pointerEvents: "none", bottom: "calc(100% + -20px)", left: "50%", transform: "translate(calc(-50% + -60px), 0)" }}>
+                          {"golden hour glow 🌅"}
                         </div>
                       </div>
-                      <div data-image="true" style={{ position: "absolute", width: "200px", height: "200px", cursor: "grab", transformOrigin: "center center", willChange: "transform" }}>
-                        <img src="/assets/img/8f7036013b824802.webp" draggable="false" style={{ width: "100%", height: "100%", objectFit: "cover", userSelect: "none", pointerEvents: "none" }} loading="lazy" decoding="async" alt="" />
-                        <div style={{ position: "absolute", padding: "8px 12px", background: "var(--token-221f5458-30ad-42f0-b005-7c3d9fe30e8d, rgb(250, 190, 209))", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", fontSize: "32px", fontFamily: "Just me again down here", whiteSpace: "nowrap", pointerEvents: "none", right: "calc(100% + -50px)", top: "50%", transform: "translate(0, calc(-50% + -22.56123px))" }}>
-                          {"Random shot"}
+                      <div data-image="true" style={{ position: "absolute", width: "320px", height: "320px", cursor: "grab", transformOrigin: "center center", willChange: "transform" }}>
+                        <img src="/assets/img/playground_netflix.jpg" draggable="false" style={{ width: "100%", height: "100%", objectFit: "cover", userSelect: "none", pointerEvents: "none", borderRadius: "4px" }} loading="lazy" decoding="async" alt="Netflix Movie Night" />
+                        <div style={{ position: "absolute", padding: "8px 12px", background: "var(--token-a40bc7b7-fed8-4930-b9f7-5dc39bc097a2, rgb(164, 229, 248))", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", fontSize: "32px", fontFamily: "Just me again down here", whiteSpace: "nowrap", pointerEvents: "none", top: "calc(100% + -20px)", left: "50%", transform: "translate(calc(-50% + 20px), 0)" }}>
+                          {"movie night 🍿"}
                         </div>
                       </div>
                       <div data-image="true" style={{ position: "absolute", width: "250px", height: "250px", cursor: "grab", transformOrigin: "center center", willChange: "transform" }}>
-                        <img src="/assets/img/f585d81b1e9c01d8.webp" draggable="false" style={{ width: "100%", height: "100%", objectFit: "cover", userSelect: "none", pointerEvents: "none" }} loading="lazy" decoding="async" alt="" />
-                        <div style={{ position: "absolute", padding: "8px 12px", background: "var(--token-cd9da077-16e0-46f3-9a80-6bf4c2a79928, rgb(245, 221, 161))", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", fontSize: "32px", fontFamily: "Just me again down here", whiteSpace: "nowrap", pointerEvents: "none", bottom: "calc(100% + -20px)", left: "50%", transform: "translate(calc(-50% + -71.35639px), 0)" }}>
-                          {"Tiny moments"}
+                        <img src="/assets/img/playground_coffee.jpg" draggable="false" style={{ width: "100%", height: "100%", objectFit: "cover", userSelect: "none", pointerEvents: "none", borderRadius: "4px" }} loading="lazy" decoding="async" alt="Coffee Latte" />
+                        <div style={{ position: "absolute", padding: "8px 12px", background: "var(--token-cd9da077-16e0-46f3-9a80-6bf4c2a79928, rgb(245, 221, 161))", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", fontSize: "32px", fontFamily: "Just me again down here", whiteSpace: "nowrap", pointerEvents: "none", left: "calc(100% + -20px)", top: "50%", transform: "translate(0, calc(-50% + -20px))" }}>
+                          {"coffee & pixels ☕"}
                         </div>
                       </div>
-                      <div data-image="true" style={{ position: "absolute", width: "400px", height: "400px", cursor: "grab", transformOrigin: "center center", willChange: "transform" }}>
-                        <img src="/assets/img/e60d1ad393b6febd.webp" draggable="false" style={{ width: "100%", height: "100%", objectFit: "cover", userSelect: "none", pointerEvents: "none" }} loading="lazy" decoding="async" alt="" />
-                        <div style={{ position: "absolute", padding: "8px 12px", background: "var(--token-a40bc7b7-fed8-4930-b9f7-5dc39bc097a2, rgb(164, 229, 248))", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", fontSize: "32px", fontFamily: "Just me again down here", whiteSpace: "nowrap", pointerEvents: "none", bottom: "calc(100% + -20px)", left: "50%", transform: "translate(calc(-50% + 102.8205px), 0)" }}>
-                          {"Not sure what I’m doing"}
+                      <div data-image="true" style={{ position: "absolute", width: "340px", height: "340px", cursor: "grab", transformOrigin: "center center", willChange: "transform" }}>
+                        <img src="/assets/img/playground_desk.jpg" draggable="false" style={{ width: "100%", height: "100%", objectFit: "cover", userSelect: "none", pointerEvents: "none", borderRadius: "4px" }} loading="lazy" decoding="async" alt="Designer Desk" />
+                        <div style={{ position: "absolute", padding: "8px 12px", background: "var(--token-3b25897c-a78c-4fb0-9a93-831975a769c1, rgb(161, 223, 197))", color: "rgb(0, 0, 0)", fontSize: "32px", fontFamily: "Just me again down here", whiteSpace: "nowrap", pointerEvents: "none", right: "calc(100% + -30px)", top: "50%", transform: "translate(0, calc(-50% + -15px))" }}>
+                          {"where ideas grow 💡"}
                         </div>
                       </div>
-                      <div data-image="true" style={{ position: "absolute", width: "200px", height: "200px", cursor: "grab", transformOrigin: "center center", willChange: "transform" }}>
-                        <img src="/assets/img/b462976cbd8472ab.webp" draggable="false" style={{ width: "100%", height: "100%", objectFit: "cover", userSelect: "none", pointerEvents: "none" }} loading="lazy" decoding="async" alt="" />
-                        <div style={{ position: "absolute", padding: "8px 12px", background: "var(--token-221f5458-30ad-42f0-b005-7c3d9fe30e8d, rgb(250, 190, 209))", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", fontSize: "32px", fontFamily: "Just me again down here", whiteSpace: "nowrap", pointerEvents: "none", right: "calc(100% + -30px)", top: "50%", transform: "translate(0, calc(-50% + -12.37146px))" }}>
-                          {"bus bus bus"}
+                      <div data-image="true" style={{ position: "absolute", width: "280px", height: "280px", cursor: "grab", transformOrigin: "center center", willChange: "transform" }}>
+                        <img src="/assets/img/e60d1ad393b6febd.webp" draggable="false" style={{ width: "100%", height: "100%", objectFit: "cover", userSelect: "none", pointerEvents: "none", borderRadius: "4px" }} loading="lazy" decoding="async" alt="Architecture Patterns" />
+                        <div style={{ position: "absolute", padding: "8px 12px", background: "var(--token-a40bc7b7-fed8-4930-b9f7-5dc39bc097a2, rgb(164, 229, 248))", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", fontSize: "32px", fontFamily: "Just me again down here", whiteSpace: "nowrap", pointerEvents: "none", bottom: "calc(100% + -20px)", left: "50%", transform: "translate(calc(-50% + 80px), 0)" }}>
+                          {"finding patterns 📐"}
                         </div>
                       </div>
-                      <div data-image="true" style={{ position: "absolute", width: "300px", height: "300px", cursor: "grab", transformOrigin: "center center", willChange: "transform" }}>
-                        <img src="/assets/img/bcceb23a31e19f30.webp" draggable="false" style={{ width: "100%", height: "100%", objectFit: "cover", userSelect: "none", pointerEvents: "none" }} loading="lazy" decoding="async" alt="" />
-                        <div style={{ position: "absolute", padding: "8px 12px", background: "var(--token-3b25897c-a78c-4fb0-9a93-831975a769c1, rgb(161, 223, 197))", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", fontSize: "32px", fontFamily: "Just me again down here", whiteSpace: "nowrap", pointerEvents: "none", left: "calc(100% + -20px)", top: "50%", transform: "translate(0, calc(-50% + 30.44254px))" }}>
-                          {"flower!"}
+                      <div data-image="true" style={{ position: "absolute", width: "240px", height: "240px", cursor: "grab", transformOrigin: "center center", willChange: "transform" }}>
+                        <img src="/assets/img/f585d81b1e9c01d8.webp" draggable="false" style={{ width: "100%", height: "100%", objectFit: "cover", userSelect: "none", pointerEvents: "none", borderRadius: "4px" }} loading="lazy" decoding="async" alt="Tiny Moments" />
+                        <div style={{ position: "absolute", padding: "8px 12px", background: "var(--token-221f5458-30ad-42f0-b005-7c3d9fe30e8d, rgb(250, 190, 209))", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", fontSize: "32px", fontFamily: "Just me again down here", whiteSpace: "nowrap", pointerEvents: "none", right: "calc(100% + -30px)", top: "50%", transform: "translate(0, calc(-50% + 20px))" }}>
+                          {"tiny moments ✨"}
                         </div>
                       </div>
                     </div>
