@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import AllContent from "@/src/sections/about/AllContent";
-import HeaderLine from "@/src/sections/about/HeaderLine";
 import CTA from "@/src/sections/about/CTA";
+import { Navbar } from "@/src/components/Draft1";
 
 /** The "/about" page, composed from its Framer sections.
  *
@@ -35,7 +35,7 @@ export default function AboutPage() {
                 </div>
               </Suspense>
             </div>
-            <style data-framer-html-style="" dangerouslySetInnerHTML={{ __html: "html body { background: var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255)); } html { scroll-behavior: smooth; } .framer-NrOiv section.framer-1q34n9d { scroll-margin-top: 120px; } .framer-NrOiv #awards .framer-1ql5gwc, .framer-NrOiv #awards .framer-1ql5gwc[data-border='true']::after, .framer-NrOiv #awards .framer-6aawbq div, .framer-NrOiv #awards .framer-6aawbq div[data-border='true']::after { --border-color: #8b5cf6 !important; border-color: #8b5cf6 !important; } .framer-NrOiv #awards .framer-1sty39j, .framer-NrOiv #awards div[data-framer-name='Cursor Tag'], .framer-NrOiv #awards .framer-awards-cursor { background-color: #8b5cf6 !important; --border-color: #111212 !important; } .framer-NrOiv #awards .framer-awards-tag, .framer-NrOiv #awards .framer-13tnzw6 > div { background-color: #8b5cf6 !important; align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: clip; padding: 4px; position: relative; width: min-content; }" }} />
+            <style data-framer-html-style="" dangerouslySetInnerHTML={{ __html: "html body { background: var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255)); } html { scroll-behavior: smooth; } .framer-NrOiv section.framer-1q34n9d { scroll-margin-top: 120px; } .framer-NrOiv #awards .framer-1ql5gwc, .framer-NrOiv #awards .framer-1ql5gwc[data-border='true']::after, .framer-NrOiv #awards .framer-6aawbq div, .framer-NrOiv #awards .framer-6aawbq div[data-border='true']::after { --border-color: #8b5cf6 !important; border-color: #8b5cf6 !important; } .framer-NrOiv #awards .framer-1sty39j, .framer-NrOiv #awards div[data-framer-name='Cursor Tag'], .framer-NrOiv #awards .framer-awards-cursor { background-color: #8b5cf6 !important; --border-color: #111212 !important; } .framer-NrOiv #awards .framer-awards-tag, .framer-NrOiv #awards .framer-13tnzw6 > div { background-color: #8b5cf6 !important; align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: clip; padding: 4px; position: relative; width: min-content; } .framer-NrOiv .framer-mpn7rf { overflow: visible !important; } .framer-NrOiv .framer-ixsok6 { overflow: visible !important; } .framer-NrOiv .framer-1y1mzru { overflow: visible !important; } .framer-NrOiv .framer-1ql5gwc { overflow: visible !important; } .framer-NrOiv .framer-13p3nrk, .framer-NrOiv .framer-u6fwr5, .framer-NrOiv .framer-1j4k69v, .framer-NrOiv .framer-1xesv5c { white-space: nowrap !important; overflow: visible !important; } .framer-NrOiv .framer-3w4or8, .framer-NrOiv .framer-1m7msg9 { overflow: visible !important; } .framer-NrOiv .framer-1lnd6n7, .framer-NrOiv .framer-enz7kh { overflow: visible !important; } .framer-187vpa3, .framer-tg9meo-container { display: none !important; } .framer-ABWci .framer-fbqfrp { background-color: #45231c !important; background-image: repeating-linear-gradient(45deg, #e5a93c 0, #e5a93c 60px, #45231c 60px, #45231c 120px) !important; } @media (max-width: 1199.98px) { .framer-NrOiv .framer-1ukjnmv { display: none !important; } } @media (max-width: 809.98px) { .framer-NrOiv .framer-13p3nrk, .framer-NrOiv .framer-u6fwr5, .framer-NrOiv .framer-1j4k69v, .framer-NrOiv .framer-1xesv5c, .framer-NrOiv .framer-1xesv5c * { white-space: normal !important; text-align: center !important; } .framer-NrOiv .framer-1m7msg9 { flex-wrap: wrap !important; justify-content: center !important; } }" }} />
             <div data-framer-root="" className="framer-NrOiv framer-9yfa1 framer-NkuHG framer-SwHTo framer-erhBl framer-0p8ff framer-tfqf9 framer-1fzvxue" style={{ minHeight: "100vh", width: "auto", display: "contents" }}>
               <div className="framer-1tvkrgo-container" data-framer-name="Smooth Scroll" name="Smooth Scroll">
                 <Suspense fallback={null}>
@@ -46,10 +46,10 @@ export default function AboutPage() {
             </div>
             <div id="overlay" />
             <div className="framer-1smnmk7" />
-            <HeaderLine />
+            <Navbar activePath="/about" />
             <CTA />
-            <div className="framer-187vpa3" data-framer-name="button">
-              <div className="framer-tg9meo-container">
+            <div className="framer-187vpa3" data-framer-name="button" style={{ display: "none" }}>
+              <div className="framer-tg9meo-container" style={{ display: "none" }}>
                 <Suspense fallback={null}>
                   <div style={{ width: "100%", height: "40px" }} />
                 </Suspense>

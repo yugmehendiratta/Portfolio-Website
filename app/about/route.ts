@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { pageFor, renderPage } from "../../src/render";
 import View from "../../src/views/AboutPage";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 
 export async function GET() {
   // In development, render the component on every request so that editing a

@@ -34,103 +34,131 @@ export default function Navbar({ className = "", activePath = "/" }: NavbarProps
                 </div>
               </div>
               <div className="framer-dga6ak" data-framer-name="Navigation">
-                {/* Home Link */}
-                <Suspense fallback={null}>
-                  <div className="framer-mdiqe4-container">
-                    <Suspense fallback={null}>
-                      <a className="framer-yadmh framer-NkuHG framer-1lelg4r framer-v-1lelg4r framer-1szvw3r" data-framer-name="desktop--active" href="./" data-framer-page-link-current="true" style={{ backgroundColor: "var(--token-1892785e-8581-4826-b411-015017430ad3, rgb(0, 94, 217))" }}>
-                        <div className="framer-17cxuf3-container" data-code-component-plugin-id="84d4c1">
+                {(() => {
+                  const isHome = activePath === "/" || activePath === "" || activePath === "/index.html";
+                  const isAbout = activePath === "/about" || activePath === "./about" || activePath.startsWith("/about");
+                  const isCaseStudy = activePath === "/case-study" || activePath === "./case-study" || activePath.startsWith("/case-study");
+                  const isPlayground = activePath === "/play-ground" || activePath === "./play-ground" || activePath.startsWith("/play-ground");
+
+                  const getLinkStyle = (isActive: boolean) => ({
+                    backgroundColor: isActive
+                      ? "var(--token-1892785e-8581-4826-b411-015017430ad3, rgb(0, 94, 217))"
+                      : "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))",
+                  });
+
+                  const getTextStyle = (isActive: boolean) => ({
+                    "--framer-text-color": isActive
+                      ? "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))"
+                      : "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))",
+                  } as React.CSSProperties);
+
+                  const getSvgFill = (isActive: boolean) =>
+                    isActive
+                      ? "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))"
+                      : "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))";
+
+                  return (
+                    <>
+                      {/* Home Link */}
+                      <Suspense fallback={null}>
+                        <div className="framer-mdiqe4-container">
                           <Suspense fallback={null}>
-                            <div style={{ width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
-                              <svg width="100%" height="100%" viewBox="0 0 357 357" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0 149.818L178.175 5.93915L356.35 149.818V356.349H271.712V295.155C271.712 243.496 229.834 201.618 178.175 201.618C126.515 201.618 84.6374 243.496 84.6374 295.155V356.349H0V149.818Z" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
-                              </svg>
-                            </div>
+                            <a className={`framer-yadmh framer-NkuHG framer-1lelg4r ${isHome ? "framer-v-1lelg4r" : "framer-v-pwe3fj"} framer-1szvw3r`} data-framer-name={isHome ? "desktop--active" : "desktop--inactive"} href="./" data-framer-page-link-current={isHome ? "true" : undefined} style={getLinkStyle(isHome)}>
+                              <div className="framer-17cxuf3-container" data-code-component-plugin-id="84d4c1">
+                                <Suspense fallback={null}>
+                                  <div style={{ width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
+                                    <svg width="100%" height="100%" viewBox="0 0 357 357" fill={getSvgFill(isHome)} xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M0 149.818L178.175 5.93915L356.35 149.818V356.349H271.712V295.155C271.712 243.496 229.834 201.618 178.175 201.618C126.515 201.618 84.6374 243.496 84.6374 295.155V356.349H0V149.818Z" fill={getSvgFill(isHome)} />
+                                    </svg>
+                                  </div>
+                                </Suspense>
+                              </div>
+                              <div className="framer-4g28vk" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": isHome ? "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))" : "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
+                                <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={getTextStyle(isHome)}>
+                                  {"Home"}
+                                </p>
+                              </div>
+                            </a>
                           </Suspense>
                         </div>
-                        <div className="framer-4g28vk" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
-                          <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                            {"Home"}
-                          </p>
-                        </div>
-                      </a>
-                    </Suspense>
-                  </div>
-                </Suspense>
-                {/* About Link */}
-                <Suspense fallback={null}>
-                  <div className="framer-wre5s5-container">
-                    <Suspense fallback={null}>
-                      <a className="framer-yadmh framer-NkuHG framer-1lelg4r framer-v-pwe3fj framer-1szvw3r" data-framer-name="desktop--inactive" href="./about" style={{ backgroundColor: "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))" }}>
-                        <div className="framer-17cxuf3-container" data-code-component-plugin-id="84d4c1">
+                      </Suspense>
+                      {/* About Link */}
+                      <Suspense fallback={null}>
+                        <div className="framer-wre5s5-container">
                           <Suspense fallback={null}>
-                            <div style={{ width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
-                              <svg width="100%" height="100%" viewBox="0 0 357 357" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.73938e-06 177.581C2.2807e-06 267.114 178.175 177.581 178.175 177.581C178.175 177.581 1.19806e-06 88.0481 1.73938e-06 177.581Z" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
-                                <path d="M356.35 177.581C356.35 267.114 178.175 177.581 178.175 177.581C178.175 177.581 356.35 88.0481 356.35 177.581Z" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
-                                <path d="M89.0877 331.885C166.625 376.651 178.175 177.581 178.175 177.581C178.175 177.581 11.55 287.118 89.0877 331.885Z" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
-                                <path d="M267.262 23.277C344.8 68.0435 178.175 177.581 178.175 177.581C178.175 177.581 189.725 -21.4894 267.262 23.277Z" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
-                                <path d="M267.262 331.885C189.724 376.651 178.175 177.581 178.175 177.581C178.175 177.581 344.8 287.118 267.262 331.885Z" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
-                                <path d="M89.0871 23.277C11.5494 68.0435 178.175 177.581 178.175 177.581C178.175 177.581 166.625 -21.4894 89.0871 23.277Z" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
-                              </svg>
-                            </div>
+                            <a className={`framer-yadmh framer-NkuHG framer-1lelg4r ${isAbout ? "framer-v-1lelg4r" : "framer-v-pwe3fj"} framer-1szvw3r`} data-framer-name={isAbout ? "desktop--active" : "desktop--inactive"} href="./about" data-framer-page-link-current={isAbout ? "true" : undefined} style={getLinkStyle(isAbout)}>
+                              <div className="framer-17cxuf3-container" data-code-component-plugin-id="84d4c1">
+                                <Suspense fallback={null}>
+                                  <div style={{ width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
+                                    <svg width="100%" height="100%" viewBox="0 0 357 357" fill={getSvgFill(isAbout)} xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M1.73938e-06 177.581C2.2807e-06 267.114 178.175 177.581 178.175 177.581C178.175 177.581 1.19806e-06 88.0481 1.73938e-06 177.581Z" fill={getSvgFill(isAbout)} />
+                                      <path d="M356.35 177.581C356.35 267.114 178.175 177.581 178.175 177.581C178.175 177.581 356.35 88.0481 356.35 177.581Z" fill={getSvgFill(isAbout)} />
+                                      <path d="M89.0877 331.885C166.625 376.651 178.175 177.581 178.175 177.581C178.175 177.581 11.55 287.118 89.0877 331.885Z" fill={getSvgFill(isAbout)} />
+                                      <path d="M267.262 23.277C344.8 68.0435 178.175 177.581 178.175 177.581C178.175 177.581 189.725 -21.4894 267.262 23.277Z" fill={getSvgFill(isAbout)} />
+                                      <path d="M267.262 331.885C189.724 376.651 178.175 177.581 178.175 177.581C178.175 177.581 344.8 287.118 267.262 331.885Z" fill={getSvgFill(isAbout)} />
+                                      <path d="M89.0871 23.277C11.5494 68.0435 178.175 177.581 178.175 177.581C178.175 177.581 166.625 -21.4894 89.0871 23.277Z" fill={getSvgFill(isAbout)} />
+                                    </svg>
+                                  </div>
+                                </Suspense>
+                              </div>
+                              <div className="framer-4g28vk" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": isAbout ? "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))" : "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
+                                <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={getTextStyle(isAbout)}>
+                                  {"About"}
+                                </p>
+                              </div>
+                            </a>
                           </Suspense>
                         </div>
-                        <div className="framer-4g28vk" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
-                          <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                            {"About"}
-                          </p>
-                        </div>
-                      </a>
-                    </Suspense>
-                  </div>
-                </Suspense>
-                {/* Case Study Link */}
-                <Suspense fallback={null}>
-                  <div className="framer-12hsxtv-container">
-                    <Suspense fallback={null}>
-                      <a className="framer-yadmh framer-NkuHG framer-1lelg4r framer-v-pwe3fj framer-1szvw3r" data-framer-name="desktop--inactive" href="./case-study" style={{ backgroundColor: "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))" }}>
-                        <div className="framer-17cxuf3-container" data-code-component-plugin-id="84d4c1">
+                      </Suspense>
+                      {/* Case Study Link */}
+                      <Suspense fallback={null}>
+                        <div className="framer-12hsxtv-container">
                           <Suspense fallback={null}>
-                            <div style={{ width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
-                              <svg width="100%" height="100%" viewBox="0 0 200 200" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" xmlns="http://www.w3.org/2000/svg">
-                                <path fillRule="evenodd" clipRule="evenodd" d="M0.00242398 200C0.000809232 199.834 0 199.667 0 199.5C0 174.111 18.7366 153.097 43.1371 149.533C18.7701 146.188 0 125.286 0 100C0 72.3858 22.3858 50 50 50H50.5C22.7765 50 0.270718 27.6601 0.00242398 0H199.998C199.729 27.6601 177.224 50 149.5 50H150C177.614 50 200 72.3858 200 100C200 125.286 181.23 146.188 156.863 149.533C181.263 153.097 200 174.111 200 199.5C200 199.667 199.999 199.834 199.998 200H0.00242398Z" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
-                              </svg>
-                            </div>
+                            <a className={`framer-yadmh framer-NkuHG framer-1lelg4r ${isCaseStudy ? "framer-v-1lelg4r" : "framer-v-pwe3fj"} framer-1szvw3r`} data-framer-name={isCaseStudy ? "desktop--active" : "desktop--inactive"} href="./case-study" data-framer-page-link-current={isCaseStudy ? "true" : undefined} style={getLinkStyle(isCaseStudy)}>
+                              <div className="framer-17cxuf3-container" data-code-component-plugin-id="84d4c1">
+                                <Suspense fallback={null}>
+                                  <div style={{ width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
+                                    <svg width="100%" height="100%" viewBox="0 0 200 200" fill={getSvgFill(isCaseStudy)} xmlns="http://www.w3.org/2000/svg">
+                                      <path fillRule="evenodd" clipRule="evenodd" d="M0.00242398 200C0.000809232 199.834 0 199.667 0 199.5C0 174.111 18.7366 153.097 43.1371 149.533C18.7701 146.188 0 125.286 0 100C0 72.3858 22.3858 50 50 50H50.5C22.7765 50 0.270718 27.6601 0.00242398 0H199.998C199.729 27.6601 177.224 50 149.5 50H150C177.614 50 200 72.3858 200 100C200 125.286 181.23 146.188 156.863 149.533C181.263 153.097 200 174.111 200 199.5C200 199.667 199.999 199.834 199.998 200H0.00242398Z" fill={getSvgFill(isCaseStudy)} />
+                                    </svg>
+                                  </div>
+                                </Suspense>
+                              </div>
+                              <div className="framer-4g28vk" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": isCaseStudy ? "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))" : "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
+                                <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={getTextStyle(isCaseStudy)}>
+                                  {"Case study"}
+                                </p>
+                              </div>
+                            </a>
                           </Suspense>
                         </div>
-                        <div className="framer-4g28vk" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
-                          <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                            {"Case study"}
-                          </p>
-                        </div>
-                      </a>
-                    </Suspense>
-                  </div>
-                </Suspense>
-                {/* Playground Link */}
-                <Suspense fallback={null}>
-                  <div className="framer-wjoehf-container">
-                    <Suspense fallback={null}>
-                      <a className="framer-yadmh framer-NkuHG framer-1lelg4r framer-v-pwe3fj framer-1szvw3r" data-framer-name="desktop--inactive" href="./play-ground" style={{ backgroundColor: "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))" }}>
-                        <div className="framer-17cxuf3-container" data-code-component-plugin-id="84d4c1">
+                      </Suspense>
+                      {/* Playground Link */}
+                      <Suspense fallback={null}>
+                        <div className="framer-wjoehf-container">
                           <Suspense fallback={null}>
-                            <div style={{ width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
-                              <svg width="100%" height="100%" viewBox="0 0 357 357" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M356.35 0H237.566V118.783H118.783V237.566H0V356.35H356.35V0Z" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
-                              </svg>
-                            </div>
+                            <a className={`framer-yadmh framer-NkuHG framer-1lelg4r ${isPlayground ? "framer-v-1lelg4r" : "framer-v-pwe3fj"} framer-1szvw3r`} data-framer-name={isPlayground ? "desktop--active" : "desktop--inactive"} href="./play-ground" data-framer-page-link-current={isPlayground ? "true" : undefined} style={getLinkStyle(isPlayground)}>
+                              <div className="framer-17cxuf3-container" data-code-component-plugin-id="84d4c1">
+                                <Suspense fallback={null}>
+                                  <div style={{ width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
+                                    <svg width="100%" height="100%" viewBox="0 0 357 357" fill={getSvgFill(isPlayground)} xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M356.35 0H237.566V118.783H118.783V237.566H0V356.35H356.35V0Z" fill={getSvgFill(isPlayground)} />
+                                    </svg>
+                                  </div>
+                                </Suspense>
+                              </div>
+                              <div className="framer-4g28vk" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": isPlayground ? "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))" : "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
+                                <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={getTextStyle(isPlayground)}>
+                                  {"Playground"}
+                                </p>
+                              </div>
+                            </a>
                           </Suspense>
                         </div>
-                        <div className="framer-4g28vk" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
-                          <p className="framer-text framer-styles-preset-27ku3y" data-styles-preset="MffBJovlA" dir="auto" style={{ "--framer-text-color": "var(--extracted-r6o4lv, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                            {"Playground"}
-                          </p>
-                        </div>
-                      </a>
-                    </Suspense>
-                  </div>
-                </Suspense>
+                      </Suspense>
+                    </>
+                  );
+                })()}
               </div>
               <div className="framer-17yi1t" data-framer-name="Contact">
                 <div className="framer-119y192-container" id="undefined-119y192">

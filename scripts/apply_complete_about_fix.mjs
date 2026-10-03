@@ -1,0 +1,218 @@
+import fs from 'fs';
+
+console.log('=== STARTING COMPLETE ABOUT PAGE FIX ===');
+
+// 1. Patch fnj-content.mjs
+const fnjPath = 'public/assets/framer/fnj-content.mjs';
+if (fs.existsSync(fnjPath)) {
+  let fnj = fs.readFileSync(fnjPath, 'utf8');
+  fnj = fnj.replace(/bejaman:\s*"[^"]*"/, 'bejaman: "Yug"');
+  fnj = fnj.replace(/let_s_talk:\s*"[^"]*"/, 'let_s_talk: "Let\'s Talk"');
+  fnj = fnj.replace(/think_first_draw_later:\s*"[^"]*"/, 'think_first_draw_later: "understand first, design second"');
+  fnj = fnj.replace(/no_perfect_world_here:\s*"[^"]*"/, 'no_perfect_world_here: "sprints don\'t wait for perfect"');
+  fnj = fnj.replace(/we_not_me:\s*"[^"]*"/, 'we_not_me: "handoff isn\'t the finish line"');
+  fnj = fnj.replace(/details_build_trust:\s*"[^"]*"/, 'details_build_trust: "AI helps me move fast, taste tells me where to stop"');
+  fs.writeFileSync(fnjPath, fnj);
+  console.log('Updated fnj-content.mjs');
+}
+
+// 2. Patch script_main.B4-njmYi.mjs
+const smPath = 'public/assets/framer/script_main.B4-njmYi.mjs';
+if (fs.existsSync(smPath)) {
+  let sm = fs.readFileSync(smPath, 'utf8');
+
+  // Fix LET'S TALK appear animation opacity
+  sm = sm.replace(/Mv=\{effect:\{opacity:\.001/g, 'Mv={effect:{opacity:1');
+
+  // Fix Comment card appear animation
+  sm = sm.replace(/Pv=\{opacity:0,rotate:0,rotateX:0,rotateY:0,scale:\.8,skewX:0,skewY:0,x:0,y:20\}/g, 'Pv={opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:0}');
+
+  // Fix Comment avatar image
+  sm = sm.replace(/https:\/\/framerusercontent\.com\/images\/SBgwLvjPh3zDCCDeWbOTgfZMdg\.jpg\?width=432&height=487/g, '/assets/img/ae83aba71780ab07.webp');
+  sm = sm.replace(/SBgwLvjPh3zDCCDeWbOTgfZMdg\.jpg/g, 'ae83aba71780ab07.webp');
+
+  // Fix SVG stripes link
+  sm = sm.replace(/https:\/\/framerusercontent\.com\/assets\/X7ObdaUoO6Arqb86HTQaaPGFtFM\.svg/g, '/assets/img/contact_stripes.svg');
+
+  // Fix Download Resume button visibility / display
+  sm = sm.replace(/visible:!0\},width:`100%`,zIndex:9999999999/g, 'visible:!1},width:`100%`,zIndex:9999999999');
+
+  fs.writeFileSync(smPath, sm);
+  console.log('Updated script_main.B4-njmYi.mjs');
+}
+
+// 3. Patch p8d4cIJbhhzOoKynoUz7QFD5AG6-Py0tkGL5Age-idQ.CSuKk7pJ.mjs
+const p8Path = 'public/assets/framer/p8d4cIJbhhzOoKynoUz7QFD5AG6-Py0tkGL5Age-idQ.CSuKk7pJ.mjs';
+if (fs.existsSync(p8Path)) {
+  let p8 = fs.readFileSync(p8Path, 'utf8');
+
+  // Unclip .framer-mpn7rf in desktop rules
+  p8 = p8.replace(/\.framer-NrOiv \.framer-mpn7rf \{ display: grid; flex: none; gap: 32px 16px; grid-auto-rows: min-content; grid-template-columns: repeat\(9, minmax\(1px, 1fr\)\); grid-template-rows: repeat\(2, min-content\); height: min-content; justify-content: center; overflow: var\(--overflow-clip-fallback, clip\);/g,
+    '.framer-NrOiv .framer-mpn7rf { display: grid; flex: none; gap: 32px 16px; grid-auto-rows: min-content; grid-template-columns: repeat(9, minmax(1px, 1fr)); grid-template-rows: repeat(2, min-content); height: min-content; justify-content: center; overflow: visible;');
+
+  // Unclip .framer-mpn7rf in general
+  p8 = p8.replace(/\.framer-NrOiv \.framer-mpn7rf \{([^\}]*?)overflow: var\(--overflow-clip-fallback, clip\);/g, '.framer-NrOiv .framer-mpn7rf {$1overflow: visible;');
+
+  // Clean existing injected rules if re-running
+  p8 = p8.replace(/`,`.framer-NrOiv \.framer-mpn7rf \{ overflow: visible !important;[\s\S]*?`\]/, '`]');
+
+  // Append CSS override rules into the bundle CSS array
+  const extraCss = "`,`.framer-NrOiv .framer-mpn7rf { overflow: visible !important; }`,`.framer-NrOiv .framer-ixsok6 { overflow: visible !important; }`,`.framer-NrOiv .framer-13p3nrk, .framer-NrOiv .framer-u6fwr5, .framer-NrOiv .framer-1j4k69v, .framer-NrOiv .framer-1xesv5c { white-space: nowrap !important; overflow: visible !important; }`,`.framer-NrOiv .framer-3w4or8, .framer-NrOiv .framer-1m7msg9 { overflow: visible !important; }`,`.framer-NrOiv .framer-1lnd6n7, .framer-NrOiv .framer-enz7kh { overflow: visible !important; }`,`.framer-187vpa3 { display: none !important; }`,`.framer-ABWci .framer-fbqfrp { background-color: #45231c !important; background-image: repeating-linear-gradient(45deg, #e5a93c 0, #e5a93c 60px, #45231c 60px, #45231c 120px) !important; }`,`@media (max-width: 1199.98px) { .framer-NrOiv .framer-1ukjnmv { display: none !important; } }`,`@media (max-width: 809.98px) { .framer-NrOiv .framer-13p3nrk, .framer-NrOiv .framer-u6fwr5, .framer-NrOiv .framer-1j4k69v, .framer-NrOiv .framer-1xesv5c, .framer-NrOiv .framer-1xesv5c * { white-space: normal !important; text-align: center !important; } .framer-NrOiv .framer-1m7msg9 { flex-wrap: wrap !important; justify-content: center !important; } }";
+  
+  p8 = p8.replace(/`\.framer-NrOiv section\.framer-1q34n9d \{ scroll-margin-top: 120px; \}`\]/, '`.framer-NrOiv section.framer-1q34n9d { scroll-margin-top: 120px; }' + extraCss + ']');
+
+  fs.writeFileSync(p8Path, p8);
+  console.log('Updated p8d4cIJbhhzOoKynoUz7QFD5AG6-Py0tkGL5Age-idQ.CSuKk7pJ.mjs');
+}
+
+// 4. Update CTA.tsx in src/sections/about/
+const ctaPath = 'src/sections/about/CTA.tsx';
+if (fs.existsSync(ctaPath)) {
+  let cta = fs.readFileSync(ctaPath, 'utf8');
+
+  // Fix Let's Talk letters opacity & transform
+  cta = cta.replace(/opacity:\s*"0\.001",\s*transform:\s*"translateX\(40px\) translateY\(0px\) scale\(0\.9\) rotate\(0deg\) skewX\(0deg\) skewY\(0deg\)"/g, 'opacity: "1", transform: "none"');
+
+  // Fix Comment card opacity & transform
+  cta = cta.replace(/style=\{\{\s*willChange:\s*"transform",\s*opacity:\s*"0",\s*transform:\s*"translateY\(20px\) scale\(0\.8\)"\s*\}\}/g, 'style={{ willChange: "transform", opacity: "1", transform: "none" }}');
+
+  // Fix avatar img src
+  cta = cta.replace(/\/assets\/img\/03ca63ae2a321591\.webp/g, '/assets/img/ae83aba71780ab07.webp');
+
+  // Fix Stripes background in CTA card
+  cta = cta.replace(/<div className="framer-fbqfrp" data-framer-name="CTA">/, '<div className="framer-fbqfrp" data-framer-name="CTA" style={{ backgroundColor: "#45231c", position: "relative", overflow: "hidden", backgroundImage: "repeating-linear-gradient(45deg, #e5a93c 0, #e5a93c 60px, #45231c 60px, #45231c 120px)" }}>');
+
+  fs.writeFileSync(ctaPath, cta);
+  console.log('Updated src/sections/about/CTA.tsx');
+}
+
+// 5. Update AboutPage.tsx
+const aboutViewPath = 'src/views/AboutPage.tsx';
+if (fs.existsSync(aboutViewPath)) {
+  let aboutView = fs.readFileSync(aboutViewPath, 'utf8');
+
+  aboutView = `import React, { Suspense } from "react";
+import AllContent from "@/src/sections/about/AllContent";
+import CTA from "@/src/sections/about/CTA";
+import { Navbar } from "@/src/components/Draft1";
+
+/** The "/about" page, composed from its Framer sections.
+ *
+ *  Rendered to static HTML by scripts/prerender.mts at build time — never
+ *  shipped as a page.tsx, which would duplicate every byte of this markup into
+ *  the RSC flight payload on top of the HTML itself. */
+export default function AboutPage() {
+  return (
+    <body>
+      {"\\n\\t\\n\\t"}
+      <span data-fnj-slot={"0"} />
+      {"\\n    \\n    "}
+      <span data-fnj-slot={"1"} />
+      {"\\n\\t\\n\\t"}
+      <div id="main" data-framer-hydrate-v2={"{\\"routeId\\":\\"NFldwpxHM\\",\\"localeId\\":\\"default\\",\\"breakpoints\\":[{\\"hash\\":\\"1fzvxue\\",\\"mediaQuery\\":\\"(min-width: 1200px)\\"},{\\"hash\\":\\"y5t7zo\\",\\"mediaQuery\\":\\"(min-width: 810px) and (max-width: 1199.98px)\\"},{\\"hash\\":\\"1hh7fxx\\",\\"mediaQuery\\":\\"(max-width: 809.98px)\\"},{\\"hash\\":\\"7f13km\\",\\"mediaQuery\\":\\"(min-width: 1200px)\\"},{\\"hash\\":\\"17tolvd\\",\\"mediaQuery\\":\\"(min-width: 810px) and (max-width: 1199.98px)\\"},{\\"hash\\":\\"vb5p67\\",\\"mediaQuery\\":\\"(max-width: 809.98px)\\"}]}"} data-framer-ssr-released-at="2026-08-12T12:02:11.066Z" data-framer-page-optimized-at="2026-08-18T02:31:16.103Z" data-framer-generated-page="">
+        <Suspense fallback={null}>
+          <style data-framer-html-style="" dangerouslySetInnerHTML={{ __html: ":root body { background: var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255)); }" }} />
+          <div className="framer-ABWci framer-pDysL framer-SwHTo framer-erhBl framer-7f13km" data-framer-cursor="10lja5m" data-layout-template="true" style={{ minHeight: "100vh", width: "auto" }}>
+            <div className="framer-b1hv7o-container" data-code-component-plugin-id="84d4c1" style={{ transformOrigin: "50% 0% 0" }}>
+              <Suspense fallback={null}>
+                <div style={{ width: "100%", height: "100%", position: "relative", boxSizing: "border-box", backgroundColor: "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))", boxShadow: "none", borderColor: "rgba(242, 242, 242, 0)", borderStyle: "solid", borderWidth: "1px" }}>
+                  <svg width="100%" height="100%" style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }}>
+                    <defs>
+                      <pattern id="paper-pattern-grid-ca2iv0n3v" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+                        <line x1="0" y1="100" x2="100" y2="100" stroke="var(--token-eee4728f-06ef-4d99-9d02-ac8944e7f6dd, rgb(226, 226, 226))" strokeWidth="1" opacity="1" />
+                        <line x1="100" y1="0" x2="100" y2="100" stroke="var(--token-eee4728f-06ef-4d99-9d02-ac8944e7f6dd, rgb(226, 226, 226))" strokeWidth="1" opacity="1" />
+                      </pattern>
+                    </defs>
+                    <rect width="100%" height="100%" fill="url(#paper-pattern-grid-ca2iv0n3v)" />
+                  </svg>
+                </div>
+              </Suspense>
+            </div>
+            <style data-framer-html-style="" dangerouslySetInnerHTML={{ __html: "html body { background: var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255)); } html { scroll-behavior: smooth; } .framer-NrOiv section.framer-1q34n9d { scroll-margin-top: 120px; } .framer-NrOiv #awards .framer-1ql5gwc, .framer-NrOiv #awards .framer-1ql5gwc[data-border='true']::after, .framer-NrOiv #awards .framer-6aawbq div, .framer-NrOiv #awards .framer-6aawbq div[data-border='true']::after { --border-color: #8b5cf6 !important; border-color: #8b5cf6 !important; } .framer-NrOiv #awards .framer-1sty39j, .framer-NrOiv #awards div[data-framer-name='Cursor Tag'], .framer-NrOiv #awards .framer-awards-cursor { background-color: #8b5cf6 !important; --border-color: #111212 !important; } .framer-NrOiv #awards .framer-awards-tag, .framer-NrOiv #awards .framer-13tnzw6 > div { background-color: #8b5cf6 !important; align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: clip; padding: 4px; position: relative; width: min-content; } .framer-NrOiv .framer-mpn7rf { overflow: visible !important; } .framer-NrOiv .framer-ixsok6 { overflow: visible !important; } .framer-NrOiv .framer-1y1mzru { overflow: visible !important; } .framer-NrOiv .framer-1ql5gwc { overflow: visible !important; } .framer-NrOiv .framer-13p3nrk, .framer-NrOiv .framer-u6fwr5, .framer-NrOiv .framer-1j4k69v, .framer-NrOiv .framer-1xesv5c { white-space: nowrap !important; overflow: visible !important; } .framer-NrOiv .framer-3w4or8, .framer-NrOiv .framer-1m7msg9 { overflow: visible !important; } .framer-NrOiv .framer-1lnd6n7, .framer-NrOiv .framer-enz7kh { overflow: visible !important; } .framer-187vpa3, .framer-tg9meo-container { display: none !important; } .framer-ABWci .framer-fbqfrp { background-color: #45231c !important; background-image: repeating-linear-gradient(45deg, #e5a93c 0, #e5a93c 60px, #45231c 60px, #45231c 120px) !important; } @media (max-width: 1199.98px) { .framer-NrOiv .framer-1ukjnmv { display: none !important; } } @media (max-width: 809.98px) { .framer-NrOiv .framer-13p3nrk, .framer-NrOiv .framer-u6fwr5, .framer-NrOiv .framer-1j4k69v, .framer-NrOiv .framer-1xesv5c, .framer-NrOiv .framer-1xesv5c * { white-space: normal !important; text-align: center !important; } .framer-NrOiv .framer-1m7msg9 { flex-wrap: wrap !important; justify-content: center !important; } }" }} />
+            <div data-framer-root="" className="framer-NrOiv framer-9yfa1 framer-NkuHG framer-SwHTo framer-erhBl framer-0p8ff framer-tfqf9 framer-1fzvxue" style={{ minHeight: "100vh", width: "auto", display: "contents" }}>
+              <div className="framer-1tvkrgo-container" data-framer-name="Smooth Scroll" name="Smooth Scroll">
+                <Suspense fallback={null}>
+                  <style dangerouslySetInnerHTML={{ __html: "html.lenis,\\nhtml.lenis body {\\n  height: auto;\\n}\\n\\n.lenis:not(.lenis-autoToggle).lenis-stopped {\\n  overflow: clip;\\n}\\n\\n.lenis [data-lenis-prevent],\\n.lenis [data-lenis-prevent-wheel],\\n.lenis [data-lenis-prevent-touch],\\n.lenis [data-lenis-prevent-vertical],\\n.lenis [data-lenis-prevent-horizontal] {\\n  overscroll-behavior: contain;\\n}\\n\\n.lenis.lenis-smooth iframe {\\n  pointer-events: none;\\n}\\n\\n.lenis.lenis-autoToggle {\\n  transition-property: overflow;\\n  transition-duration: 1ms;\\n  transition-behavior: allow-discrete;\\n}" }} />
+                </Suspense>
+              </div>
+              <AllContent />
+            </div>
+            <div id="overlay" />
+            <div className="framer-1smnmk7" />
+            <Navbar activePath="/about" />
+            <CTA />
+            <div className="framer-187vpa3" data-framer-name="button" style={{ display: "none" }}>
+              <div className="framer-tg9meo-container" style={{ display: "none" }}>
+                <Suspense fallback={null}>
+                  <div style={{ width: "100%", height: "40px" }} />
+                </Suspense>
+              </div>
+            </div>
+          </div>
+          <div id="template-overlay" />
+        </Suspense>
+      </div>
+      <span data-fnj-slot={"2"} />
+      {"\\n\\t"}
+      <span data-fnj-slot={"3"} />
+      {"\\n\\t\\n\\t\\n\\t"}
+      <span data-fnj-slot={"4"} />
+      {"\\n\\t"}
+      <span data-fnj-slot={"5"} />
+      {"\\n\\t"}
+      <span data-fnj-slot={"6"} />
+      <span data-fnj-slot={"7"} />
+      <span data-fnj-slot={"8"} />
+      <span data-fnj-slot={"9"} />
+      <span data-fnj-slot={"10"} />
+      <span data-fnj-slot={"11"} />
+      <span data-fnj-slot={"12"} />
+      <span data-fnj-slot={"13"} />
+      <span data-fnj-slot={"14"} />
+      <span data-fnj-slot={"15"} />
+      <span data-fnj-slot={"16"} />
+      <span data-fnj-slot={"17"} />
+      <span data-fnj-slot={"18"} />
+      <span data-fnj-slot={"19"} />
+      <span data-fnj-slot={"20"} />
+      <span data-fnj-slot={"21"} />
+      <span data-fnj-slot={"22"} />
+      <span data-fnj-slot={"23"} />
+      <span data-fnj-slot={"24"} />
+      <span data-fnj-slot={"25"} />
+      <span data-fnj-slot={"26"} />
+      <span data-fnj-slot={"27"} />
+      <span data-fnj-slot={"28"} />
+      <div id="svg-templates" style={{ position: "absolute", overflow: "hidden", bottom: "0", left: "0", width: "0", height: "0", zIndex: "0", contain: "strict" }} aria-hidden="true">
+        {"\\n"}
+        <svg viewBox="0 0 28 26" overflow="visible" id="svg1378496346_348">
+          <path d="M 0 0 L 12 26 L 14 13 L 28 9.5 Z" fill="var(--token-29f9695a-09e2-4c55-ace7-e9873233e207, rgb(241, 231, 178))" strokeWidth="2" stroke="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
+        </svg>
+        {"\\n"}
+        <svg viewBox="0 0 28 26" overflow="visible" id="svg1439459110_387">
+          <path d="M 0 0 L 12 26 L 14 13 L 28 9.5 Z" fill={"var(--token-e22e0fe6-83a6-4381-a625-c6f173619c49, rgb(224, 30, 90)) /* {\\"name\\":\\"Red\\"} */"} strokeWidth="2" stroke="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
+        </svg>
+        {"\\n"}
+        <svg viewBox="0 0 28 26" overflow="visible" id="svg52684662_392">
+          <path d="M 0 0 L 12 26 L 14 13 L 28 9.5 Z" fill={"var(--token-1892785e-8581-4826-b411-015017430ad3, rgb(54, 197, 240)) /* {\\"name\\":\\"Primary\\"} */"} strokeWidth="2" stroke="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
+        </svg>
+        {"\\n"}
+        <svg viewBox="0 0 28 26" overflow="visible" id="svg_awards_cursor">
+          <path d="M 0 0 L 12 26 L 14 13 L 28 9.5 Z" fill="#8b5cf6" strokeWidth="2" stroke="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
+        </svg>
+        {"\\n"}
+      </div>
+      {"\\n\\t"}
+      <span data-fnj-slot={"29"} />
+      {"\\n    \\n    "}
+      <span data-fnj-slot={"30"} />
+      {"\\n\\n\\n"}
+    </body>
+  );
+}
+`;
+  fs.writeFileSync(aboutViewPath, aboutView);
+  console.log('Updated src/views/AboutPage.tsx');
+}
+
+console.log('=== ALL FILES PATCHED SUCCESSFULLY ===');

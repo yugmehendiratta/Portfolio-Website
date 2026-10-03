@@ -74,17 +74,20 @@ export default function Footer({
             </div>
           </div>
         </div>
-
         {/* Large Interactive CTA Card */}
         <div className="framer-4s0jc9" data-framer-name="CTA">
-          <div className="framer-fbqfrp" data-framer-name="CTA">
+          <div className="framer-fbqfrp" data-framer-name="CTA" style={{ backgroundColor: "#45231c", position: "relative", overflow: "visible" }}>
             <div className="framer-19jj8vj" data-framer-name="CTA Content">
-              <div className="framer-1eu8vtl-container" style={{ transform: "rotate(-360deg)" }}>
-                <Suspense fallback={null}>
-                  <div style={{ width: "100%", height: "100%", overflow: "visible" }}>
-                    <div style={{ color: "#999", fontSize: "12px" }} />
-                  </div>
-                </Suspense>
+              <div className="framer-1eu8vtl-container" style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0, overflow: "hidden", borderRadius: "32px", pointerEvents: "none" }}>
+                <svg width="100%" height="100%" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}>
+                  <defs>
+                    <pattern id="contact-stripes-pattern" patternUnits="userSpaceOnUse" width="120" height="120" patternTransform="rotate(45)">
+                      <rect width="60" height="120" fill="#e5a93c" />
+                      <rect x="60" width="60" height="120" fill="#45231c" />
+                    </pattern>
+                  </defs>
+                  <rect width="100%" height="100%" fill="url(#contact-stripes-pattern)" />
+                </svg>
               </div>
 
               {/* Desktop CTA Button */}
@@ -131,7 +134,7 @@ export default function Footer({
                           </div>
                           <div className="framer-1aqdnhb" data-framer-component-type="RichTextContainer" style={{ "--extracted-1of0zx5": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
                             <h2 className="framer-text framer-styles-preset-k31no2" data-styles-preset="to1tng0Qo" dir="auto" style={{ "--framer-text-color": "var(--extracted-1of0zx5, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                              {"Let's Talk"}
+                              {"Contact"}
                             </h2>
                           </div>
                           <div className="framer-193okg8" data-framer-name="ICON">
@@ -208,7 +211,7 @@ export default function Footer({
                           </div>
                           <div className="framer-1aqdnhb" data-framer-component-type="RichTextContainer" style={{ "--extracted-1of0zx5": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
                             <h2 className="framer-text framer-styles-preset-k31no2" data-styles-preset="to1tng0Qo" dir="auto" style={{ "--framer-text-color": "var(--extracted-1of0zx5, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                              {"Let's Talk"}
+                              {"Contact"}
                             </h2>
                           </div>
                           <div className="framer-193okg8" data-framer-name="ICON">
@@ -259,7 +262,7 @@ export default function Footer({
                         <div className="framer-18r1m1s" data-border="true" data-framer-name="Dot" style={{ "--border-bottom-width": "1px", "--border-color": "rgb(34, 34, 34)", "--border-left-width": "1px", "--border-right-width": "1px", "--border-style": "solid", "--border-top-width": "1px", backgroundColor: "var(--token-341b58e0-d728-43ce-a1dc-e77a522cab4f, rgb(255, 255, 255))", opacity: "0" }} />
                         <div className="framer-1aqdnhb" data-framer-component-type="RichTextContainer" style={{ "--extracted-1of0zx5": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", "--framer-link-text-color": "rgb(0, 153, 255)", "--framer-link-text-decoration": "underline", transform: "none" }}>
                           <h2 className="framer-text framer-styles-preset-k31no2" data-styles-preset="to1tng0Qo" dir="auto" style={{ "--framer-text-color": "var(--extracted-1of0zx5, var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18)))" }}>
-                            {"Let's Talk"}
+                            {"Contact"}
                           </h2>
                         </div>
                       </a>
@@ -270,47 +273,32 @@ export default function Footer({
             </div>
 
             {/* Comment Card / Identity Badge */}
-            <div className="framer-esbcc0" data-framer-name="Comment" style={{ willChange: "transform", opacity: "1", transform: "none" }}>
+            <div className="framer-esbcc0" data-framer-name="Comment" style={{ willChange: "transform", opacity: "1", transform: "none", zIndex: 2 }}>
               <div className="framer-1n3mzrv" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-                <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-94d217a4-b19e-496f-a9f0-41c83f611b07, rgb(118, 119, 119))" }}>
-                  {"Designer"}
+                <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-94d217a4-b19e-496f-a9f0-41c83f611b07, rgb(118, 119, 119))", fontSize: "12px", margin: "0 0 8px 0" }}>
+                  {"Comment"}
                 </p>
               </div>
               <div className="framer-v9ox4y" />
-              <div className="framer-1dlc9z6" data-framer-name="Content">
-                <div className="framer-1k7u3id">
-                  <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="432" height="487" src="/assets/img/ae83aba71780ab07.webp" alt={name} style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} />
+              <div className="framer-1dlc9z6" data-framer-name="Content" style={{ display: "flex", gap: "12px", alignItems: "flex-start", marginTop: "10px" }}>
+                <div className="framer-1k7u3id" style={{ width: "36px", height: "36px", borderRadius: "50%", flexShrink: 0, position: "relative", overflow: "hidden" }}>
+                  <div style={{ position: "absolute", borderRadius: "inherit", top: 0, right: 0, bottom: 0, left: 0 }} data-framer-background-image-wrapper="true">
+                    <img decoding="async" loading="lazy" width="432" height="487" src="/assets/img/ae83aba71780ab07.webp" alt="Yug" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", objectPosition: "center", objectFit: "cover" }} />
                   </div>
                 </div>
-                <div className="framer-1xihdmg" data-framer-name="Text + Icon">
-                  <div className="framer-1s3tqzb" data-framer-name="Text">
-                    <div className="framer-10tih48" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-                      <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))", fontWeight: "600" }}>
-                        {name}
-                      </p>
-                    </div>
-                    <div className="framer-akl5t" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-                      <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-94d217a4-b19e-496f-a9f0-41c83f611b07, rgb(118, 119, 119))" }}>
-                        {role}
-                      </p>
-                    </div>
+                <div className="framer-1xihdmg" data-framer-name="Text + Icon" style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
+                  <div className="framer-1s3tqzb" data-framer-name="Text" style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
+                    <p className="framer-text" style={{ margin: 0, fontSize: "14px", fontWeight: 700, color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
+                      {"Yug"}
+                    </p>
+                    <p className="framer-text framer-styles-preset-163ovsm" style={{ margin: 0, fontSize: "12px", lineHeight: "1.4", color: "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
+                      {"Open to contract work, full-time roles, and interesting conversations about weird design problems."}
+                    </p>
                   </div>
-                  <div className="framer-1ppqlg2" data-border="true" data-framer-name="React">
-                    <div className="framer-2q1kpk" data-framer-name="BG Color" />
-                    <div className="framer-pd74tc-container" data-code-component-plugin-id="84d4c1">
-                      <Suspense fallback={null}>
-                        <div style={{ width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
-                          <svg width="100%" height="100%" viewBox="0 0 357 357" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" xmlns="http://www.w3.org/2000/svg">
-                            <path fillRule="evenodd" clipRule="evenodd" d="M161.287 0H279.807L203.041 101.593H346.847L91.972 355.528L169.695 184.3H26.7266L161.287 0Z" fill="var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" />
-                          </svg>
-                        </div>
-                      </Suspense>
-                    </div>
-                    <div className="framer-1x9wcay" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-                      <p className="framer-text framer-styles-preset-1833qg6" data-styles-preset="jB2nPzqr7" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
-                        {"✦"}
-                      </p>
+                  <div style={{ marginTop: "4px" }}>
+                    <div className="framer-1ppqlg2" data-border="true" data-framer-name="React" style={{ display: "inline-flex", alignItems: "center", gap: "6px", backgroundColor: "#e0f2fe", border: "1.5px solid #0284c7", borderRadius: "4px", padding: "2px 8px" }}>
+                      <span style={{ fontSize: "12px" }}>👍</span>
+                      <span style={{ fontSize: "12px", fontWeight: 700, color: "#0284c7" }}>1</span>
                     </div>
                   </div>
                 </div>

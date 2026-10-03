@@ -38,34 +38,34 @@ export default function CTA() {
             <div className="framer-7nz22a" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
               <h2 className="framer-text framer-styles-preset-k31no2" data-styles-preset="to1tng0Qo" dir="auto" style={{ "--framer-text-color": "var(--token-4f4ed186-9023-4858-830a-5202d69249c1, rgb(17, 18, 18))" }}>
                 <span style={{ whiteSpace: "nowrap" }}>
-                  <span style={{ display: "inline-block", opacity: "0.001", transform: "translateX(40px) translateY(0px) scale(0.9) rotate(0deg) skewX(0deg) skewY(0deg)" }}>
+                  <span style={{ display: "inline-block", opacity: "1", transform: "none" }}>
                     {"L"}
                   </span>
-                  <span style={{ display: "inline-block", opacity: "0.001", transform: "translateX(40px) translateY(0px) scale(0.9) rotate(0deg) skewX(0deg) skewY(0deg)" }}>
+                  <span style={{ display: "inline-block", opacity: "1", transform: "none" }}>
                     {"e"}
                   </span>
-                  <span style={{ display: "inline-block", opacity: "0.001", transform: "translateX(40px) translateY(0px) scale(0.9) rotate(0deg) skewX(0deg) skewY(0deg)" }}>
+                  <span style={{ display: "inline-block", opacity: "1", transform: "none" }}>
                     {"t"}
                   </span>
-                  <span style={{ display: "inline-block", opacity: "0.001", transform: "translateX(40px) translateY(0px) scale(0.9) rotate(0deg) skewX(0deg) skewY(0deg)" }}>
+                  <span style={{ display: "inline-block", opacity: "1", transform: "none" }}>
                     {"'"}
                   </span>
-                  <span style={{ display: "inline-block", opacity: "0.001", transform: "translateX(40px) translateY(0px) scale(0.9) rotate(0deg) skewX(0deg) skewY(0deg)" }}>
+                  <span style={{ display: "inline-block", opacity: "1", transform: "none" }}>
                     {"s"}
                   </span>
                 </span>
                 {" "}
                 <span style={{ whiteSpace: "nowrap" }}>
-                  <span style={{ display: "inline-block", opacity: "0.001", transform: "translateX(40px) translateY(0px) scale(0.9) rotate(0deg) skewX(0deg) skewY(0deg)" }}>
+                  <span style={{ display: "inline-block", opacity: "1", transform: "none" }}>
                     {"T"}
                   </span>
-                  <span style={{ display: "inline-block", opacity: "0.001", transform: "translateX(40px) translateY(0px) scale(0.9) rotate(0deg) skewX(0deg) skewY(0deg)" }}>
+                  <span style={{ display: "inline-block", opacity: "1", transform: "none" }}>
                     {"a"}
                   </span>
-                  <span style={{ display: "inline-block", opacity: "0.001", transform: "translateX(40px) translateY(0px) scale(0.9) rotate(0deg) skewX(0deg) skewY(0deg)" }}>
+                  <span style={{ display: "inline-block", opacity: "1", transform: "none" }}>
                     {"l"}
                   </span>
-                  <span style={{ display: "inline-block", opacity: "0.001", transform: "translateX(40px) translateY(0px) scale(0.9) rotate(0deg) skewX(0deg) skewY(0deg)" }}>
+                  <span style={{ display: "inline-block", opacity: "1", transform: "none" }}>
                     {"k"}
                   </span>
                 </span>
@@ -79,7 +79,7 @@ export default function CTA() {
           </div>
         </div>
         <div className="framer-4s0jc9" data-framer-name="CTA">
-          <div className="framer-fbqfrp" data-framer-name="CTA">
+          <div className="framer-fbqfrp" data-framer-name="CTA" style={{ backgroundColor: "#45231c", position: "relative", overflow: "hidden", backgroundImage: "repeating-linear-gradient(45deg, #e5a93c 0, #e5a93c 60px, #45231c 60px, #45231c 120px)" }}>
             <div className="framer-19jj8vj" data-framer-name="CTA Content">
               <div className="framer-1eu8vtl-container" style={{ transform: "rotate(-360deg)" }}>
                 <Suspense fallback={null}>
@@ -281,7 +281,7 @@ export default function CTA() {
                 </div>
               </Suspense>
             </div>
-            <div className="framer-esbcc0" data-framer-name="Comment" style={{ willChange: "transform", opacity: "0", transform: "translateY(20px) scale(0.8)" }}>
+            <div className="framer-esbcc0" data-framer-name="Comment" style={{ willChange: "transform", opacity: "1", transform: "none" }}>
               <div className="framer-1n3mzrv" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                 <p className="framer-text framer-styles-preset-163ovsm" data-styles-preset="ptQSvPZIk" dir="auto" style={{ "--framer-text-color": "var(--token-94d217a4-b19e-496f-a9f0-41c83f611b07, rgb(118, 119, 119))" }}>
                   {"Comment"}
@@ -291,7 +291,7 @@ export default function CTA() {
               <div className="framer-1dlc9z6" data-framer-name="Content">
                 <div className="framer-1k7u3id">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="432" height="487" src="/assets/img/03ca63ae2a321591.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} />
+                    <img decoding="async" loading="lazy" width="432" height="487" src="/assets/img/ae83aba71780ab07.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} />
                   </div>
                 </div>
                 <div className="framer-1xihdmg" data-framer-name="Text + Icon">
